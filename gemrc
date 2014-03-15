@@ -1,0 +1,2 @@
+# Stop installing documentation when installing gems
+gem: --no-ri --no-rdoc

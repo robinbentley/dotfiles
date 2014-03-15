@@ -1,0 +1,9 @@
+[user]
+    name = Robin Bentley
+    email = robinbentley@me.com
+
+[core]
+    editor = vim
+
+[color]
+    ui = always

@@ -1,0 +1,2 @@
+
+source ~/.zsh/path.zsh
