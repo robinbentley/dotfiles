@@ -1,13 +1,18 @@
-" using vim settings over vi
-set nocompatible
+" =====================================================
+" @robinbentley (https://github.com/robinbentley)
+" =====================================================
 
-" put backups and swp files into their own dirs
-set backup
-set backupdir=~/.vim/backups/
-set directory=~/.vim/swap/
+set nocompatible                            " using vim settings over vi
 
-" turn filetype off before vundle
-filetype off
+set nobackup                                " turn backups off
+set directory=~/.vim/swap/                  " keep swapfiles in thier own dir
+
+filetype off                                " turn filetype off before vundle
+
+
+" =====================================================
+" Bundles
+" =====================================================
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -15,21 +20,23 @@ call vundle#rc()
 " let Vundle manage Vundle, required
 Bundle 'gmarik/vundle'
 
-" bundles
 Bundle 'bling/vim-airline'
 Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'chriskempson/base16-vim'
 
+filetype plugin indent on                   " turn filetype on again
 
-" let's setup vim...
+
+" =====================================================
+" Editing
+" =====================================================
 
 set number                                  " show line numbers
 syntax on                                   " syntax highlighting
 set background=dark                         " dark background
 colorscheme base16-eighties
-
 
 set nowrap                                  " don't wrap long lines
 set expandtab                               " the tabs are now spaces
@@ -39,20 +46,23 @@ set smartindent
 set softtabstop=4                           " backspace pretends a tab was removed
 set backspace=indent,eol,start              " backspace over all the things
 
-
 set splitright                              " open vsplits to the right
 set splitbelow                              " open splits below
 
+set listchars=tab:>-,trail:·,extends:>
+set list                                    " show listchars
 
 
-" Mappings and the such
+" =====================================================
+" Mappings
+" =====================================================
 
 " remap leader from \ to ,
 let mapleader=","
 let g:mapleader=","
 
 " double tap jj to exit insertmode
-inoremap jj <esc>
+imap jj <esc>
 
 " easier movement between splits
 nnoremap <C-j> <C-w>j
@@ -61,12 +71,27 @@ nnoremap <C-l> <C-w>l
 nnoremap <C-h> <C-w>h
 
 
-
-" Plugin settings
+" =====================================================
+" Bundle settings
+" =====================================================
 
 " airline
-set laststatus=2        " Show airline erry time
-set noshowmode          " Hide default mode
+set laststatus=2                            " Show airline erry time
+set noshowmode                              " Hide default mode
 
 " nerdtree
 map <leader>n :NERDTreeToggle<CR>
+let NERDTreeChDirMode=2
+
+
+" =====================================================
+" Functions
+" =====================================================
+
+function! CleanOnSave()
+    let save_cursor = getpos(".")           " save cursor position
+    :silent! %s/\s\+$//e                    " trim any trailing whitespace
+    :silent! %s#\($\n\s*\)\+\%$##           " remove any blank lines from eof
+    call setpos('.', save_cursor)           " put the cursor back
+endfunction
+autocmd BufWritePre * call CleanOnSave()
