@@ -7,3 +7,9 @@
 
 [color]
     ui = always
+
+[alias]
+    s = status
+    c = commit
+    a = add -A
+    ch = checkout
