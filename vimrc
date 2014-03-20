@@ -25,6 +25,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'chriskempson/base16-vim'
+Bundle 'mattn/emmet-vim'
 
 filetype plugin indent on                   " turn filetype on again
 
@@ -74,6 +75,9 @@ nnoremap <C-h> <C-w>h
 " =====================================================
 " Bundle settings
 " =====================================================
+
+" emmet
+let g:user_emmet_leader_key='<leader><tab>'
 
 " airline
 set laststatus=2                            " Show airline erry time
