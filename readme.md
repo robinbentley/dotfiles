@@ -3,7 +3,7 @@ I decided to nuke my laptop and start building everything up from scratch, for t
 First step is to install xcode from the app store and then use [Homebrew](http://brew.sh) to manage packages.
 
 ## Homebrew packages
-    tree wget zsh vim rbenv ruby-build node git python python3
+    tree wget zsh vim rbenv ruby-build node git python python3 weechat
 
 ## Symlinks
     ln -fs ~/dotfiles/zsh ~/.zsh
@@ -13,6 +13,7 @@ First step is to install xcode from the app store and then use [Homebrew](http:/
     ln -fs ~/dotfiles/vim ~/.vim
     ln -fs ~/dotfiles/vimrc ~/.vimrc
     ln -fs ~/dotfiles/gvimrc ~/.gvimrc
+    ln -fs ~/dotfiles/weechat ~/.weechat
 
 ## Actions
     #change shell to zsh once it's installed
