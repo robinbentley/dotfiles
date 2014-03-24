@@ -1,6 +1,6 @@
 [user]
-    name = Robin Bentley
-    email = robinbentley@me.com
+	name = Robin Bentley
+	email = robinbentley@me.com
 
 [core]
     editor = vim
@@ -13,3 +13,5 @@
     c = commit
     a = add -A
     ch = checkout
+[mergetool]
+	keepBackup = true
