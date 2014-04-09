@@ -73,14 +73,6 @@ function prompt_venv() {
 }
 
 # =====================================================
-# limit display of pwd
-# =====================================================
-function prompt_pwd() {
-
-}
-
-
-# =====================================================
 # build the prompt
 # =====================================================
 PROMPT="\$(prompt_venv)%{$fg[yellow]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}: %{$fg[blue]%}%3~%{$reset_color%} \$(prompt_git)
