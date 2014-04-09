@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import sys
- 
+
 for i in range(2):
     for j in range(30, 38):
         for k in range(40, 48):
