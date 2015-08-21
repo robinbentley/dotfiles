@@ -19,6 +19,7 @@ else
     echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
 
+export PATH="$(brew --prefix)/bin:$PATH"
 
 # =====================================================
 # make sure /usr/local/bin is always before /usr/bin
