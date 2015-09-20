@@ -13,5 +13,15 @@
     c = commit
     a = add -A
     ch = checkout
+
+    # 'log clean' single line log with no color
+    lc = log --pretty=format:"%h\\ %s\\ [%cn]"
+    # 'log long' show files per commit & color
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+    # 'log dates' single line with real dates & color
+    ld = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+    # 'log' single line with relative dates & color
+    l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+
 [mergetool]
 	keepBackup = true
