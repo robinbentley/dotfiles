@@ -69,12 +69,12 @@ function prompt_venv() {
     if [[ -n "$VIRTUAL_ENV" ]]; then
         venv="${VIRTUAL_ENV##*/}";
     fi
-    [[ -n "$venv" ]] && echo "%{$fg[magenta]%}($venv)%{$reset_color%}"
+    [[ -n "$venv" ]] && echo "%{$fg[magenta]%}($venv) %{$reset_color%}"
 }
 
 # =====================================================
 # build the prompt
 # =====================================================
-PROMPT="\$(prompt_venv)%{$fg[yellow]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}: %{$fg[blue]%}%3~%{$reset_color%} \$(prompt_git)
+PROMPT="\$(prompt_venv)%{$fg[green]%}%3~%{$reset_color%} \$(prompt_git)
 %% "
 _PROMPT=$PROMPT
