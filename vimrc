@@ -37,7 +37,7 @@ filetype plugin indent on                   " turn filetype on again
 set number                                  " show line numbers
 syntax on                                   " syntax highlighting
 set background=dark                         " dark background
-colorscheme base16-eighties
+colorscheme base16-ocean
 
 set nowrap                                  " don't wrap long lines
 set expandtab                               " the tabs are now spaces
