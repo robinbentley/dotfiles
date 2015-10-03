@@ -1,0 +1,12 @@
+{
+  "extensions":
+  [
+    "py"
+  ],
+  "rulers":
+  [
+    72,
+    79
+  ],
+  "tab_size": 4
+}

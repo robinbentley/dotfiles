@@ -19,6 +19,9 @@ alias ping='ping -c 5'
 # remove any un-needed deps from brew
 alias brewnuke="brew cleanup -s --force"
 
+# use sub to launch sublime
+alias sub="subl"
+
 # django manage commands
 alias djsyncdb="python manage.py syncdb"
 alias djmake="python manage.py makemigrations"

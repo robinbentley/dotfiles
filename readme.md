@@ -3,7 +3,7 @@ I decided to nuke my laptop and start building everything up from scratch, for t
 First step is to install xcode from the app store and then use [Homebrew](http://brew.sh) to manage packages.
 
 ## Homebrew packages
-    tree wget zsh vim rbenv ruby-build node git python python3
+    tree wget zsh vim rbenv ruby-build node git python python3 htop
 
 ## Taps
     caskroom/versions 'brew tap caskroom/versions'
@@ -21,6 +21,12 @@ First step is to install xcode from the app store and then use [Homebrew](http:/
     ln -fs ~/dotfiles/vim ~/.vim
     ln -fs ~/dotfiles/vimrc ~/.vimrc
     ln -fs ~/dotfiles/gvimrc ~/.gvimrc
+
+    ln -sf ~/dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+    ln -sf ~/dotfiles/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+
+## Install sublime package control
+    wget https://packagecontrol.io/Package%20Control.sublime-package -P ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
 
 ## Actions
     #change shell to zsh once it's installed
