@@ -16,9 +16,8 @@ alias fgrep='fgrep --color=auto'
 # network
 alias ping='ping -c 5'
 
-# use neovim over normal vim
-alias vim="nvim"
-alias vi="nvim"
+# remove any un-needed deps from brew
+alias brewnuke="brew cleanup -s --force"
 
 # django manage commands
 alias djsyncdb="python manage.py syncdb"

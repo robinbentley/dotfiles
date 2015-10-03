@@ -6,11 +6,11 @@ First step is to install xcode from the app store and then use [Homebrew](http:/
     tree wget zsh vim rbenv ruby-build node git python python3
 
 ## Taps
-    neovim 'brew tap neovim/neovim && brew install --HEAD neovim'
+    caskroom/versions 'brew tap caskroom/versions'
 
 ## Casks
     install caskroom 'brew install caskroom/cask/brew-cask'
-    brew cask install iterm2 coconutbattery appcleaner subler
+    brew cask install iterm2 coconutbattery appcleaner subler github-desktop spotify sublime-text3
 
 
 ## Symlinks
@@ -20,8 +20,6 @@ First step is to install xcode from the app store and then use [Homebrew](http:/
     ln -fs ~/dotfiles/gitconfig ~/.gitconfig
     ln -fs ~/dotfiles/vim ~/.vim
     ln -fs ~/dotfiles/vimrc ~/.vimrc
-    ln -fs ~/dotfiles/vim ~/.nvim
-    ln -fs ~/dotfiles/vimrc ~/.nvimrc
     ln -fs ~/dotfiles/gvimrc ~/.gvimrc
 
 ## Actions
