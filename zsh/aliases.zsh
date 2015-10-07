@@ -22,6 +22,10 @@ alias brewnuke="brew cleanup -s --force"
 # use sub to launch sublime
 alias sub="subl"
 
+# git aliases
+alias gs="git status"
+alias gl="git log --pretty=format:\"%C(yellow)%h %ad%Cred%d %Creset%s%Cblue [%cn]\" --decorate --date=relative"
+
 # django manage commands
 alias djsyncdb="python manage.py syncdb"
 alias djmake="python manage.py makemigrations"
