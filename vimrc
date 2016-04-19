@@ -11,21 +11,23 @@ filetype off                                " turn filetype off before vundle
 
 
 " =====================================================
-" Bundles
+" Plugins
 " =====================================================
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle, required
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
-Bundle 'bling/vim-airline'
-Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/nerdtree'
-Bundle 'kien/ctrlp.vim'
-Bundle 'chriskempson/base16-vim'
-Bundle 'mattn/emmet-vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
+Plugin 'chriskempson/base16-vim'
+Plugin 'mattn/emmet-vim'
+Plugin 'jelera/vim-javascript-syntax'
 
 filetype plugin indent on                   " turn filetype on again
 
@@ -73,7 +75,7 @@ nnoremap <C-h> <C-w>h
 
 
 " =====================================================
-" Bundle settings
+" Plugin settings
 " =====================================================
 
 " emmet
