@@ -5,11 +5,18 @@
 	],
 	"installed_packages":
 	[
+		"ApacheConf.tmLanguage",
+		"DocBlockr",
+		"Ember CLI Snippets",
 		"Emmet",
 		"GitGutter",
+		"Handlebars",
+		"Jade",
 		"Package Control",
 		"Sass",
 		"SideBarEnhancements",
-		"Theme - Spacegray"
+		"SublimeGit",
+		"Theme - Spacegray",
+		"WordPress"
 	]
 }
