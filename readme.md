@@ -10,7 +10,7 @@ First step is to install xcode from the app store and then use [Homebrew](http:/
 
 ## Casks
     install caskroom 'brew install caskroom/cask/brew-cask'
-    brew cask install iterm2 coconutbattery appcleaner subler github-desktop spotify sublime-text3
+    brew cask install iterm2 coconutbattery appcleaner subler github-desktop spotify sublime-text3 atom
 
 
 ## Symlinks
@@ -21,6 +21,7 @@ First step is to install xcode from the app store and then use [Homebrew](http:/
     ln -fs ~/dotfiles/vim ~/.vim
     ln -fs ~/dotfiles/vimrc ~/.vimrc
     ln -fs ~/dotfiles/gvimrc ~/.gvimrc
+    ln -fs ~/dotfiles/atom ~/.atom
 
     ln -sf ~/dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
     ln -sf ~/dotfiles/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User

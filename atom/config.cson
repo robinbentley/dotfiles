@@ -1,0 +1,16 @@
+"*":
+  core:
+    themes: [
+      "one-dark-ui"
+      "base16-ocean-dark-syntax-theme"
+    ]
+  editor:
+    fontSize: 12
+    lineHeight: 2.2
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "576a90b2-f088-b23e-ccd0-1269d7772432"
+  welcome:
+    showOnStartup: false
