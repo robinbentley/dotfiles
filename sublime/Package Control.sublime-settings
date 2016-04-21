@@ -5,11 +5,13 @@
 	],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"ApacheConf.tmLanguage",
 		"DocBlockr",
 		"Ember CLI Snippets",
 		"Emmet",
 		"GitGutter",
+		"GitGutter-Edge",
 		"Handlebars",
 		"Jade",
 		"Package Control",
