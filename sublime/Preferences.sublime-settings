@@ -20,14 +20,18 @@
 		"storage/",
 		".idea",
 		"__pycache__",
-		"node_modules/*"
+	],
+	"binary_file_patterns":
+	[
+		"node_modules/",
+		"bower_components/"
 	],
 	"font_face": "Inconsolata-g",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
