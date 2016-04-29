@@ -640,7 +640,7 @@
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>660 4 780 873 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>590 4 850 873 0 0 1440 877 </string>
+	<string>0 18 717 859 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>205 18 850 859 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -1371,12 +1371,14 @@
 			<string>/Users/robin</string>
 		</dict>
 	</array>
+	<key>NoSyncHaveShownPromoWithId_4</key>
+	<true/>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>465510887.661336</real>
+	<real>477753789.06200802</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>467854453.34178197</real>
+	<real>483534720.00404</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -1385,6 +1387,8 @@
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>0</integer>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PassOnControlClick</key>
 	<false/>
 	<key>PasteFromClipboard</key>
@@ -1439,7 +1443,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-10-29T23:33:25Z</date>
+	<date>2016-04-28T11:10:25Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
