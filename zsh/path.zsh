@@ -25,3 +25,8 @@ export PATH="$(brew --prefix)/bin:$PATH"
 # make sure /usr/local/bin is always before /usr/bin
 # =====================================================
 export PATH=/usr/local/bin:$PATH
+
+# =====================================================
+# adding shopify themekit to path
+# =====================================================
+PATH="/Users/robin/.themekit:$PATH"
