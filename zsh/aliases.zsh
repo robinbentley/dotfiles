@@ -17,7 +17,7 @@ alias fgrep='fgrep --color=auto'
 alias ping='ping -c 5'
 
 # remove any un-needed deps from brew
-alias brewnuke="brew cleanup -s --force"
+alias brewnuke="brew cleanup -s --force && brew cask cleanup --force && brew prune"
 
 # use sub to launch sublime
 alias sub="subl"
