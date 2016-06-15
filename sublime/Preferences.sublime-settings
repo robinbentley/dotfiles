@@ -24,7 +24,8 @@
 		".git",
 		"storage/",
 		".idea",
-		"__pycache__"
+		"__pycache__",
+		".deploy_git"
 	],
 	"font_face": "Inconsolata-g",
 	"font_options":
