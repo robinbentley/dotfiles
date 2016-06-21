@@ -5,7 +5,7 @@
       "base16-ocean-dark-syntax-theme"
     ]
   editor:
-    fontSize: 12
+    fontSize: 13
     lineHeight: 2.2
     scrollPastEnd: true
     showIndentGuide: true
