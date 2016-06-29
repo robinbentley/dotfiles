@@ -42,5 +42,5 @@ alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool NO  &&
 # hexo commands
 alias hs="hexo s --staging dev"
 alias hc="hexo clean && hexo generate --staging dev"
-alias hd="hexo deploy --staging production"
+alias hd="hexo clean && hexo deploy --staging production"
 alias hl="hexo list"
