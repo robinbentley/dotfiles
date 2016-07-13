@@ -4,6 +4,7 @@
 		"node_modules/",
 		"bower_components/"
 	],
+	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"default_line_ending": "unix",
@@ -27,12 +28,12 @@
 		"__pycache__",
 		".deploy_git"
 	],
-	"font_face": "Inconsolata-g",
+	"font_face": "inconsolata-g",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -40,8 +41,8 @@
 	[
 		"Vintage"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
 	"match_brackets": true,
 	"match_brackets_angle": true,
 	"match_brackets_braces": true,
