@@ -7,20 +7,20 @@
 	[
 		"AdvancedNewFile",
 		"ApacheConf.tmLanguage",
+		"Babel",
+		"Boxy Theme",
 		"DocBlockr",
 		"Emmet",
 		"GitGutter-Edge",
-		"Handlebars",
 		"Jade",
-		"JavaScriptNext - ES6 Syntax",
 		"jQuery",
 		"Liquid",
 		"Package Control",
 		"Pretty JSON",
 		"Sass",
 		"SideBarEnhancements",
+		"Status Bar File Size",
 		"SublimeGit",
-		"Theme - Spacegray",
 		"WordPress"
 	]
 }
