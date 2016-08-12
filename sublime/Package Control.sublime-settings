@@ -12,6 +12,7 @@
 		"DocBlockr",
 		"Emmet",
 		"GitGutter-Edge",
+		"GitSavvy",
 		"Jade",
 		"jQuery",
 		"Liquid",
@@ -21,7 +22,6 @@
 		"SideBarEnhancements",
 		"Status Bar File Size",
 		"SublimeCodeIntel",
-		"SublimeGit",
 		"WordPress"
 	]
 }
