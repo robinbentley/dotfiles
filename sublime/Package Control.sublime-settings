@@ -11,6 +11,7 @@
 		"Boxy Theme",
 		"DocBlockr",
 		"Emmet",
+		"ESLint-Formatter",
 		"GitGutter-Edge",
 		"GitSavvy",
 		"Jade",
@@ -22,6 +23,8 @@
 		"SideBarEnhancements",
 		"Status Bar File Size",
 		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"WordPress"
 	]
 }
