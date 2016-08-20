@@ -1,6 +1,6 @@
 # general
 alias ll='ls -laG'
-alias tree='tree -L 2'
+alias tree='tree -LC 2'
 alias cl='clear'
 
 # navigation
