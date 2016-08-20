@@ -26,15 +26,6 @@ alias sub="subl"
 alias gs="git status"
 alias gl="git log --pretty=format:\"%C(yellow)%h %ad%Cred%d %Creset%s%Cblue [%cn]\" --decorate --date=relative"
 
-# django manage commands
-alias djsyncdb="python manage.py syncdb"
-alias djmake="python manage.py makemigrations"
-alias djserve="python manage.py runserver"
-alias djmigrate="python manage.py migrate"
-alias djapp="python manage.py startapp"
-alias djproject="python manage.py startproject"
-alias djtest="python manage.py test"
-
 # toggling hidden files in OS X
 alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder"
 alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool NO  && killall Finder"
