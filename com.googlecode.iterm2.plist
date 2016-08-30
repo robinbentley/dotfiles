@@ -879,7 +879,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop</string>
+	<string>~/dotfiles/resources/colorschemes</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 459}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -919,7 +919,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>269 416 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>461 335 730 507 0 0 1440 877 </string>
+	<string>720 7 714 867 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>495 315 730 507 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1234,7 +1234,7 @@
 				<real>0.12669175863265991</real>
 			</dict>
 			<key>Cursor Type</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
@@ -1715,7 +1715,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-08-20T10:09:38Z</date>
+	<date>2016-08-24T09:54:28Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1726,6 +1726,10 @@
 	<integer>0</integer>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>3.0.20160607-nightly</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
