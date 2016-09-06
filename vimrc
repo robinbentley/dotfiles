@@ -22,10 +22,10 @@ Plugin 'gmarik/vundle'
 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'mhartington/oceanic-next'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
-Plugin 'chriskempson/base16-vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'jelera/vim-javascript-syntax'
 
@@ -38,8 +38,9 @@ filetype plugin indent on                   " turn filetype on again
 
 set number                                  " show line numbers
 syntax on                                   " syntax highlighting
+set t_Co=256
 set background=dark                         " dark background
-colorscheme base16-eighties
+colorscheme OceanicNext
 
 set nowrap                                  " don't wrap long lines
 set expandtab                               " the tabs are now spaces
@@ -84,6 +85,7 @@ let g:user_emmet_leader_key='<leader><Tab>'
 " airline
 set laststatus=2                            " Show airline erry time
 set noshowmode                              " Hide default mode
+let g:airline_theme='oceanicnext'
 
 " nerdtree
 map <leader>n :NERDTreeToggle<CR>
