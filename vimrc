@@ -41,6 +41,8 @@ syntax on                                   " syntax highlighting
 set t_Co=256
 set background=dark                         " dark background
 colorscheme OceanicNext
+hi LineNr ctermfg=DarkGrey ctermbg=NONE     " Remove background colour from line numbers
+hi Comment cterm=NONE ctermfg=DarkGrey      " Remove background colour from comments
 
 set nowrap                                  " don't wrap long lines
 set expandtab                               " the tabs are now spaces
@@ -85,7 +87,7 @@ let g:user_emmet_leader_key='<leader><Tab>'
 " airline
 set laststatus=2                            " Show airline erry time
 set noshowmode                              " Hide default mode
-let g:airline_theme='oceanicnext'
+let airline_theme='oceanicnext'
 
 " nerdtree
 map <leader>n :NERDTreeToggle<CR>

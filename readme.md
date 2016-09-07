@@ -10,7 +10,7 @@ First step is to install xcode from the app store and then use [Homebrew](http:/
 
 ## Casks
     install caskroom 'brew install caskroom/cask/brew-cask'
-    brew cask install iterm2 coconutbattery appcleaner subler github-desktop spotify sublime-text3 atom
+    brew cask install iterm2 coconutbattery appcleaner subler github-desktop spotify sublime-text3
 
 
 ## Symlinks
