@@ -18,7 +18,15 @@ else
     echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
 
+# =====================================================
+# Add brew /bin to path
+# =====================================================
 export PATH="$(brew --prefix)/bin:$PATH"
+
+# =====================================================
+# Add brew coreutils
+# =====================================================
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 # =====================================================
 # make sure /usr/local/bin is always before /usr/bin
