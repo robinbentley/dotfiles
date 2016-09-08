@@ -21,16 +21,23 @@ cask_install iterm2-nightly
 cask_install sublime-text
 cask_install visual-studio-code
 cask_install sequel-pro
+cask_install robomongo
+cask_install postman
 
 # browsers
 cask_install google-chrome
 cask_install firefox
 
+# social
+cask_install slack
+
+# media
+cask_install spotify
+
 # utils
 cask_install bettertouchtool
 cask_install coconutbattery
 cask_install appcleaner
-cask_install spotify
 cask_install licecap
 cask_install the-unarchiver
 
