@@ -7,6 +7,7 @@ alias cl='clear'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ~='cd ~'
+alias dot='cd ~/dotfiles'
 
 # grep
 alias grep='grep --color=auto'
@@ -17,7 +18,7 @@ alias fgrep='fgrep --color=auto'
 alias ping='ping -c 5'
 
 # remove any un-needed deps from brew
-alias brewnuke="brew cleanup -s --force && brew cask cleanup --force && brew prune"
+alias brewnuke="brew cleanup -s && brew cask cleanup && brew prune"
 
 # use sub to launch sublime
 alias sub="subl"
