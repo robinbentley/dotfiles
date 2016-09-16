@@ -33,12 +33,20 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 15,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"SHS-At-Rule",
+		"SHS-Bourbon",
+		"SHS-Bourbon-Neat",
+		"SHS-Compass-Mixins",
+		"SHS-Compass-Variables",
+		"SHS-CSS-Properties",
+		"SHS-CSS-Property-Values",
+		"SHS-Sass-Functions",
 		"Vintage"
 	],
 	"line_padding_bottom": 3,
