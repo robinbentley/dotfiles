@@ -24,6 +24,9 @@ cask_install sequel-pro
 cask_install robomongo
 cask_install postman
 
+# design
+cask_install sketch
+
 # browsers
 cask_install google-chrome
 cask_install firefox

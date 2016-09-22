@@ -19,9 +19,10 @@ else
 fi
 
 # =====================================================
-# Add brew /bin to path
+# Add brew /bin and /sbin to path
 # =====================================================
 export PATH="$(brew --prefix)/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 
 # =====================================================
 # Add brew coreutils
