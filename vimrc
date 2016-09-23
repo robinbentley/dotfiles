@@ -82,7 +82,7 @@ nnoremap <C-h> <C-w>h
 " =====================================================
 
 " emmet
-let g:user_emmet_leader_key='<leader><Tab>'
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " airline
 set laststatus=2                            " Show airline erry time
