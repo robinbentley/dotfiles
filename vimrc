@@ -13,21 +13,17 @@ filetype off                                " turn filetype off before vundle
 " =====================================================
 " Plugins
 " =====================================================
+call plug#begin()
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+Plug 'vim-airline/vim-airline'
+Plug 'mhartington/oceanic-next'
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'mattn/emmet-vim'
+Plug 'jelera/vim-javascript-syntax'
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/vundle'
-
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'mhartington/oceanic-next'
-Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
-Plugin 'mattn/emmet-vim'
-Plugin 'jelera/vim-javascript-syntax'
+call plug#end()
 
 filetype plugin indent on                   " turn filetype on again
 
@@ -40,7 +36,7 @@ set number                                  " show line numbers
 syntax on                                   " syntax highlighting
 set t_Co=256
 set background=dark                         " dark background
-colorscheme OceanicNext
+silent! colorscheme OceanicNext
 hi LineNr ctermfg=DarkGrey ctermbg=NONE     " Remove background colour from line numbers
 hi Comment cterm=NONE ctermfg=DarkGrey      " Remove background colour from comments
 
