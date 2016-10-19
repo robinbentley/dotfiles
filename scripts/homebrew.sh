@@ -29,7 +29,7 @@ echo "Updating homebrew..."
 brew update
 
 echo "Upgrading homebrew..."
-brew upgrade --all
+brew upgrade
 
 echo "Installing homebrew packages..."
 brew_install coreutils
