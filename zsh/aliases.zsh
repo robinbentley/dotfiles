@@ -1,5 +1,7 @@
+export CLICOLOR=1
+
 # general
-alias ll='ls -laG'
+alias ll='ls -laF'
 alias tree='tree -LC 2'
 alias cl='clear'
 
@@ -8,11 +10,6 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ~='cd ~'
 alias dot='cd ~/dotfiles'
-
-# grep
-alias grep='grep --color=auto'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
 
 # network
 alias ping='ping -c 5'

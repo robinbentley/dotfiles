@@ -25,11 +25,6 @@ export PATH="$(brew --prefix)/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
 # =====================================================
-# Add brew coreutils
-# =====================================================
-export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
-
-# =====================================================
 # make sure /usr/local/bin is always before /usr/bin
 # =====================================================
 export PATH=/usr/local/bin:$PATH
