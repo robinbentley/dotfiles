@@ -1,4 +1,4 @@
-source ~/.zsh/path.zsh
-source ~/.zsh/completions.zsh
-source ~/.zsh/prompt.zsh
-source ~/.zsh/aliases.zsh
+source ~/dotfiles/shell/path.zsh
+source ~/dotfiles/shell/completions.zsh
+source ~/dotfiles/shell/prompt.zsh
+source ~/dotfiles/shell/aliases.zsh

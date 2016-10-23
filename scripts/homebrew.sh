@@ -39,6 +39,7 @@ brew_install zsh
 brew_install git
 brew_install wget --with-iri
 brew_install vim
+brew_install neovim
 brew_install tree
 brew_install htop
 brew_install git-lfs

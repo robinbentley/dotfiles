@@ -1,7 +1,7 @@
 export CLICOLOR=1
 
 # general
-alias ll='ls -laF'
+alias ll='ls -laFh'
 alias tree='tree -LC 2'
 alias cl='clear'
 
@@ -19,6 +19,10 @@ alias brewnuke="brew cleanup -s && brew cask cleanup && brew prune"
 
 # use sub to launch sublime
 alias sub="subl"
+
+# use neovim
+alias vi="vim"
+alias vim="nvim"
 
 # git aliases
 alias gs="git status"

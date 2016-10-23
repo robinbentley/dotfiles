@@ -17,7 +17,7 @@ brew_tap caskroom/versions
 
 echo "Installing casks..."
 # dev
-cask_install iterm2-nightly
+cask_install iterm2-beta
 cask_install sublime-text
 cask_install visual-studio-code
 cask_install sequel-pro

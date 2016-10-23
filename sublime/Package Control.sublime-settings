@@ -17,7 +17,6 @@
 		"GitSavvy",
 		"Jade",
 		"jQuery",
-		"Liquid",
 		"Markdown Preview",
 		"Package Control",
 		"Pretty JSON",
@@ -30,6 +29,7 @@
 		"Syntax Highlighting for Sass",
 		"TodoReview",
 		"TypeScript",
+		"Vue Syntax Highlight",
 		"WordPress"
 	]
 }
