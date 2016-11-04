@@ -32,8 +32,6 @@ alias gl="git log --pretty=format:\"%C(yellow)%h %ad%Cred%d %Creset%s%Cblue [%cn
 alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder"
 alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool NO  && killall Finder"
 
-# hexo commands
-alias hs="hexo s --staging dev"
-alias hc="hexo clean && hexo generate --staging dev"
-alias hd="hexo clean && hexo deploy --staging production"
-alias hl="hexo list"
+# neofetch
+alias neofetch="neofetch --config ~/.neofetchrc"
+alias screenfetch="neofetch"
