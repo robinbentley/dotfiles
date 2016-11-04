@@ -21,3 +21,7 @@ else
   curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   nvim -c PlugInstall -c quitall
 fi
+
+# make ctrl-h work in neovim
+infocmp $TERM | sed 's/kbs=^[hH]/kbs=\\177/' > $TERM.ti
+tic $TERM.ti
