@@ -51,6 +51,7 @@ set splitbelow                              " open splits below
 set listchars=tab:>-,trail:·,extends:>
 set list                                    " show listchars
 
+set autoread
 
 " =====================================================
 " Mappings
