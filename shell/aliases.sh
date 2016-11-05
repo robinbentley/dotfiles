@@ -1,5 +1,3 @@
-export CLICOLOR=1
-
 # general
 alias ll='ls -laFh'
 alias tree='tree -LC 2'

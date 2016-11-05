@@ -1,8 +1,12 @@
+# grep colors
+export CLICOLOR=1
+export GREP_OPTIONS='--color=auto'
+export GREP_COLOR='1;31;40'
+
 # =====================================================
 # add rbenv and completions
 # =====================================================
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
-
 
 # =====================================================
 # make virtualenv easier with virtualenvwrapper
