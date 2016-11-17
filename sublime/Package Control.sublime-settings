@@ -9,6 +9,7 @@
 		"ApacheConf.tmLanguage",
 		"Babel",
 		"Boxy Theme",
+		"Color Highlighter",
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
@@ -20,6 +21,7 @@
 		"Markdown Preview",
 		"Package Control",
 		"Pretty JSON",
+		"Pug",
 		"Sass",
 		"SideBarEnhancements",
 		"Status Bar File Size",
@@ -30,6 +32,7 @@
 		"TodoReview",
 		"TypeScript",
 		"Vue Syntax Highlight",
-		"WordPress"
+		"WordPress",
+		"zz File Icons"
 	]
 }
