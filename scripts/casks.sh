@@ -23,19 +23,22 @@ cask_install visual-studio-code
 cask_install sequel-pro
 cask_install robomongo
 cask_install postman
+cask_install docker
 
 # design
 cask_install sketch
+cask_install colorsnapper
 
 # browsers
 cask_install google-chrome
-cask_install firefox
+cask_install firefoxdeveloperedition
 
 # social
 cask_install slack
 
 # media
 cask_install spotify
+cask_install transmission
 
 # utils
 cask_install bettertouchtool
