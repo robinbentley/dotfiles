@@ -1,5 +1,7 @@
 # general
 alias ll='ls -laFh'
+# show permissions as numeric values
+alias lln='ls -lFh | awk "{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/) *2^(8-i));if(k)printf(\"%0o \",k);print}"'
 alias tree='tree -LC 2'
 alias cl='clear'
 
@@ -31,5 +33,5 @@ alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool YES &&
 alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool NO  && killall Finder"
 
 # neofetch
-alias neofetch="neofetch --config ~/.neofetchrc"
+alias neofetch="neofetch --config ~/.config/neofetch/neofetchrc --shell_version off"
 alias screenfetch="neofetch"
