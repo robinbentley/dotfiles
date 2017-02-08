@@ -39,9 +39,16 @@ brew_install zsh
 brew_install git
 brew_install wget --with-iri
 brew_install vim
-brew_install neovim
 brew_install tree
 brew_install htop
 brew_install git-lfs
+brew_install nvm
+brew_install yarn
+brew_install python
+brew_install python3
+brew_install neofetch
+
+brew tap neovim/neovim
+brew_install neovim
 
 brew cleanup

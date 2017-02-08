@@ -4,6 +4,12 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31;40'
 
 # =====================================================
+# add nvm to path
+# =====================================================
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
+# =====================================================
 # add rbenv and completions
 # =====================================================
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi

@@ -20,10 +20,6 @@ alias brewnuke="brew cleanup -s && brew cask cleanup && brew prune"
 # use sub to launch sublime
 alias sub="subl"
 
-# use neovim
-alias vi="vim"
-alias vim="nvim"
-
 # git aliases
 alias gs="git status"
 alias gl="git log --pretty=format:\"%C(yellow)%h %ad%Cred%d %Creset%s%Cblue [%cn]\" --decorate --date=relative"

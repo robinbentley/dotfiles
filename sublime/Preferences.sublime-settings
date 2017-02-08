@@ -28,7 +28,7 @@
 		"__pycache__",
 		".deploy_git"
 	],
-	"font_face": "SF Mono",
+	"font_face": "inconsolata-g",
 	"font_options":
 	[
 		"subpixel_antialias"

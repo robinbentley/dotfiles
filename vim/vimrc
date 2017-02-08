@@ -20,7 +20,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
-Plug 'jelera/vim-javascript-syntax'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -28,14 +30,20 @@ call plug#end()
 " =====================================================
 " Editing
 " =====================================================
+if (has("termguicolors"))
+   set termguicolors
+endif
 
 set number                                  " show line numbers
 syntax on                                   " syntax highlighting
 set t_Co=256
 set background=dark                         " dark background
 silent! colorscheme OceanicNext
-hi LineNr ctermfg=DarkGrey ctermbg=NONE     " Remove background colour from line numbers
-hi Comment cterm=NONE ctermfg=DarkGrey      " Remove background colour from comments
+
+" Remove background colour from line numbers
+hi LineNr ctermfg=DarkGrey ctermbg=NONE guifg=#65737e guibg=NONE
+" Remove background colour from comments
+hi Comment cterm=NONE ctermfg=DarkGrey guifg=#65737e guibg=NONE
 
 set nowrap                                  " don't wrap long lines
 set expandtab                               " the tabs are now spaces
@@ -87,12 +95,16 @@ let airline_theme='oceanicnext'
 map <leader>n :NERDTreeToggle<CR>
 let NERDTreeChDirMode=2
 
-hi NERDTreeOpenable cterm=NONE ctermbg=NONE ctermfg=DarkBlue guifg=#000000 guibg=NONE
-hi NERDTreeClosable cterm=NONE ctermbg=NONE ctermfg=DarkBlue guifg=#000000 guibg=NONE
+let g:NERDTreeDirArrowExpandable = '↘'
+let g:NERDTreeDirArrowCollapsible = '↖'
+hi NERDTreeOpenable cterm=NONE ctermbg=NONE ctermfg=DarkBlue guifg=#6699CC guibg=NONE
+hi NERDTreeClosable cterm=NONE ctermbg=NONE ctermfg=DarkBlue guifg=#6699CC guibg=NONE
 
-let NERDTreeDirArrowExpandable = '↘'
-let NERDTreeDirArrowCollapsible = '↖'
+" vim-javascript
+let g:javascript_plugin_flow = 1
 
+" vim-jsx
+let g:jsx_ext_required = 0
 
 " =====================================================
 " Functions

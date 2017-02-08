@@ -24,6 +24,7 @@ cask_install sequel-pro
 cask_install robomongo
 cask_install postman
 cask_install docker
+cask_install vagrant
 
 # design
 cask_install sketch
@@ -32,6 +33,7 @@ cask_install colorsnapper
 # browsers
 cask_install google-chrome
 cask_install firefoxdeveloperedition
+cask_install firefox
 
 # social
 cask_install slack
@@ -44,7 +46,7 @@ cask_install transmission
 cask_install bettertouchtool
 cask_install coconutbattery
 cask_install appcleaner
-cask_install licecap
+cask_install kap
 cask_install the-unarchiver
 
 brew cask cleanup
