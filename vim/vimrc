@@ -90,6 +90,9 @@ imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 set laststatus=2                            " Show airline erry time
 set noshowmode                              " Hide default mode
 let airline_theme='oceanicnext'
+let g:airline_powerline_fonts = 0
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
 
 " nerdtree
 map <leader>n :NERDTreeToggle<CR>
