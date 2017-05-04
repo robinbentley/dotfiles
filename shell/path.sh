@@ -4,6 +4,12 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31;40'
 
 # =====================================================
+# set go
+# =====================================================
+export GOPATH="$HOME/.go"
+export PATH="$PATH:$GOPATH/bin"
+
+# =====================================================
 # add nvm to path
 # =====================================================
 export NVM_DIR="$HOME/.nvm"
@@ -44,8 +50,3 @@ export PATH=/usr/local/bin:$PATH
 # =====================================================
 export MAMP_PHP=/Applications/MAMP/bin/php/php5.6.10/bin
 export PATH="$MAMP_PHP:$PATH:/Applications/MAMP/Library/bin"
-
-# =====================================================
-# adding shopify themekit to path
-# =====================================================
-PATH="/Users/robin/.themekit:$PATH"
