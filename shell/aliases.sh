@@ -31,3 +31,6 @@ alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool NO  &&
 # neofetch
 alias neofetch="neofetch --config ~/.config/neofetch/neofetchrc --shell_version off"
 alias screenfetch="neofetch"
+
+# download best audio using youtube-dl
+alias ytaudio="youtube-dl -x --audio-format m4a --audio-quality 0"
