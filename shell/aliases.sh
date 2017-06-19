@@ -33,4 +33,4 @@ alias neofetch="neofetch --config ~/.config/neofetch/neofetchrc --shell_version 
 alias screenfetch="neofetch"
 
 # download best audio using youtube-dl
-alias ytaudio="youtube-dl -x --audio-format m4a --audio-quality 0"
+alias ytaudio="youtube-dl -x --audio-format m4a --audio-quality 0 -o '%(title)s.%(ext)s'"
