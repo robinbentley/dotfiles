@@ -1,9 +1,10 @@
 [user]
-	name = Robin Bentley
-	email = robinbentley@me.com
+    name = Robin Bentley
+    email = robinbentley@me.com
 
 [core]
     editor = vim
+    excludesfile = ~/.gitignore.global
 
 [color]
     ui = always
