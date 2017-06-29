@@ -14,8 +14,6 @@
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
-		"ESLint-Formatter",
-		"Format JSDoc @params",
 		"Gist",
 		"GitGutter",
 		"GitSavvy",
@@ -24,8 +22,6 @@
 		"jQuery",
 		"Markdown Preview",
 		"Package Control",
-		"Pretty JSON",
-		"Pug",
 		"Sass",
 		"SideBarEnhancements",
 		"Status Bar File Size",
@@ -34,11 +30,8 @@
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-jshint",
 		"Syntax Highlighting for Sass",
-		"tern_for_sublime",
 		"TodoReview",
 		"TOML",
-		"TypeScript",
-		"Vue Syntax Highlight",
 		"WordPress"
 	]
 }
