@@ -23,7 +23,6 @@ Plug 'mattn/emmet-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'w0rp/ale'
-Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
