@@ -1,38 +1,60 @@
 // Place your settings in this file to overwrite the default settings
 {
-  "editor.fontSize": 16,
-  "editor.renderWhitespace": "boundary",
-  "editor.fontFamily": "inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
-  "editor.lineHeight": 32,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "explorer.openEditors.visible": 0,
-  "[markdown]": {
-      "files.trimTrailingWhitespace": true
-  },
-  "[python]": {
-      "editor.tabSize": 4
-  },
-  "editor.tabSize": 2,
-  "workbench.colorTheme": "Boxy Ocean",
-  "workbench.iconTheme": "vs-seti",
-  "workbench.startupEditor": "none",
-  "terminal.integrated.fontSize": 13,
-  "terminal.integrated.lineHeight": 1.5,
-  "search.exclude": {
-      "**/.git": true,
-      "**/node_modules": true,
-      "**/bower_components": true,
-      "**/tmp": true,
-      "**/docs": true,
-      "**/vendor": true
-  },
-  "editor.minimap.enabled": false,
-  "window.zoomLevel": 0,
-  "beautify.config": {
-      "space_in_paren": false
-  },
-  "html.format.wrapLineLength": 0,
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "javascript.validate.enable": false
+    "editor.fontSize": 15,
+    "editor.renderWhitespace": "boundary",
+    "editor.fontFamily": "inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 32,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "explorer.openEditors.visible": 0,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Boxy Ocean",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.lineHeight": 1.6,
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true,
+        "**/docs": true,
+        "**/vendor": true
+    },
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "beautify.config": {
+        "space_in_paren": false
+    },
+    "html.format.wrapLineLength": 0,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "javascript.validate.enable": false,
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#c0c5ce",
+        "terminal.background": "#1b2b34",
+        "terminal.ansiBlack": "#1B2B34",
+        "terminal.ansiWhite": "#d8dee9",
+        "terminal.ansiBlue": "#6699CC",
+        "terminal.ansiCyan": "#5FB3B3",
+        "terminal.ansiGreen": "#99C794",
+        "terminal.ansiMagenta": "#C594C5",
+        "terminal.ansiYellow": "#FAC863",
+        "terminal.ansiRed": "#EC5f67",
+        "terminal.ansiBrightBlack": "#65737e",
+        "terminal.ansiBrightWhite": "#d8dee9",
+        "terminal.ansiBrightBlue": "#6699CC",
+        "terminal.ansiBrightCyan": "#5FB3B3",
+        "terminal.ansiBrightGreen": "#99C794",
+        "terminal.ansiBrightMagenta": "#C594C5",
+        "terminal.ansiBrightYellow": "#FAC863",
+        "terminal.ansiBrightRed": "#EC5f67"
+    }
 }

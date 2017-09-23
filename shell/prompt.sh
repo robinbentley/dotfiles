@@ -22,7 +22,7 @@ function prompt_venv() {
     if [[ -n "$VIRTUAL_ENV" ]]; then
         venv="${VIRTUAL_ENV##*/}";
     fi
-    [[ -n "$venv" ]] && echo "%{$fg[magenta]%}($venv)%{$reset_color%}"
+    [[ -n "$venv" ]] && echo "%{$fg[magenta]%}($venv) %{$reset_color%}"
 }
 
 # =====================================================
