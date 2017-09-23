@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
     "editor.lineHeight": 32,
@@ -33,10 +33,6 @@
         "space_in_paren": false
     },
     "html.format.wrapLineLength": 0,
-    "emmet.syntaxProfiles": {
-        "javascript": "jsx"
-    },
-    "javascript.validate.enable": false,
     "workbench.colorCustomizations": {
         "terminal.foreground": "#c0c5ce",
         "terminal.background": "#1b2b34",
@@ -56,5 +52,10 @@
         "terminal.ansiBrightMagenta": "#C594C5",
         "terminal.ansiBrightYellow": "#FAC863",
         "terminal.ansiBrightRed": "#EC5f67"
-    }
+    },
+    "files.hotExit": "off",
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showAbbreviationSuggestions": false,
+    "emmet.showSuggestionsAsSnippets": false,
+    "workbench.sideBar.location": "left"
 }
