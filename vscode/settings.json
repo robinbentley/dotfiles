@@ -34,6 +34,14 @@
     },
     "html.format.wrapLineLength": 0,
     "workbench.colorCustomizations": {
+        "activityBar.foreground": "#b2b7ba",
+        "activityBar.background": "#1a2b34",
+        "sideBar.background": "#21323a",
+        "statusBar.background": "#21323a",
+        "statusBar.foreground": "#b2b7ba",
+        "titleBar.activeBackground": "#21323a",
+        "editorError.foreground": "#EC5f67",
+        "editorWarning.foreground": "#99C794",
         "terminal.foreground": "#c0c5ce",
         "terminal.background": "#1b2b34",
         "terminal.ansiBlack": "#1B2B34",
@@ -69,5 +77,7 @@
         "**/.DS_Store": true,
         "**/*.pyc": true,
         "**/__pycache__": true
-    }
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true
 }
