@@ -57,5 +57,17 @@
     "emmet.triggerExpansionOnTab": true,
     "emmet.showAbbreviationSuggestions": false,
     "emmet.showSuggestionsAsSnippets": false,
-    "workbench.sideBar.location": "left"
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "workbench.sideBar.location": "left",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    }
 }

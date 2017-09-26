@@ -17,14 +17,16 @@ brew_tap caskroom/versions
 
 echo "Installing casks..."
 # dev
-cask_install iterm2-beta
+cask_install iterm2
 cask_install sublime-text
 cask_install visual-studio-code
 cask_install sequel-pro
 cask_install robomongo
+cask_install dbeaver-community
 cask_install postman
 cask_install docker
 cask_install vagrant
+cask_install virtualbox
 
 # design
 cask_install sketch
