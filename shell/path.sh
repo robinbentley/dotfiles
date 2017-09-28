@@ -16,11 +16,6 @@ export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
 # =====================================================
-# add rbenv and completions
-# =====================================================
-if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
-
-# =====================================================
 # make virtualenv easier with virtualenvwrapper
 # =====================================================
 export WORKON_HOME=$HOME/.virtualenvs
@@ -48,5 +43,5 @@ export PATH=/usr/local/bin:$PATH
 # =====================================================
 # use MAMP php on cli for wp-cli
 # =====================================================
-export MAMP_PHP=/Applications/MAMP/bin/php/php5.6.10/bin
-export PATH="$MAMP_PHP:$PATH:/Applications/MAMP/Library/bin"
+# export MAMP_PHP=/Applications/MAMP/bin/php/php5.6.10/bin
+# export PATH="$MAMP_PHP:$PATH:/Applications/MAMP/Library/bin"

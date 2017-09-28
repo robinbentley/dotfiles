@@ -21,7 +21,6 @@ cask_install iterm2
 cask_install sublime-text
 cask_install visual-studio-code
 cask_install sequel-pro
-cask_install robomongo
 cask_install dbeaver-community
 cask_install postman
 cask_install docker
@@ -45,7 +44,6 @@ cask_install spotify
 cask_install transmission
 
 # utils
-cask_install bettertouchtool
 cask_install coconutbattery
 cask_install appcleaner
 cask_install kap
