@@ -39,6 +39,7 @@
         "sideBar.background": "#21323a",
         "statusBar.background": "#21323a",
         "statusBar.foreground": "#b2b7ba",
+        "statusBar.debuggingForeground": "#ffffff",
         "titleBar.activeBackground": "#21323a",
         "editorError.foreground": "#EC5f67",
         "editorWarning.foreground": "#99C794",
