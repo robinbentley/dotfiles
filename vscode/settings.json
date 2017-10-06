@@ -80,5 +80,6 @@
         "**/__pycache__": true
     },
     "python.linting.pylintEnabled": false,
-    "python.linting.pep8Enabled": true
+    "python.linting.pep8Enabled": true,
+    "editor.dragAndDrop": false
 }
