@@ -81,5 +81,7 @@
     },
     "python.linting.pylintEnabled": false,
     "python.linting.pep8Enabled": true,
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
     "editor.dragAndDrop": false
 }
