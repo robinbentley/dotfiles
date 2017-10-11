@@ -11,14 +11,15 @@
         "files.trimTrailingWhitespace": false
     },
     "[python]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true
     },
     "editor.tabSize": 2,
     "workbench.colorTheme": "Boxy Ocean",
     "workbench.iconTheme": "vs-seti",
     "workbench.startupEditor": "none",
     "terminal.integrated.fontSize": 13,
-    "terminal.integrated.lineHeight": 1.6,
+    "terminal.integrated.lineHeight": 1.2,
     "search.exclude": {
         "**/.git": true,
         "**/node_modules": true,
@@ -30,6 +31,7 @@
     "editor.minimap.enabled": false,
     "window.zoomLevel": 0,
     "beautify.config": {
+        "space_after_anon_function": false,
         "space_in_paren": false
     },
     "html.format.wrapLineLength": 0,
@@ -82,6 +84,11 @@
     "python.linting.pylintEnabled": false,
     "python.linting.pep8Enabled": true,
     "python.formatting.provider": "autopep8",
-    "editor.formatOnSave": true,
-    "editor.dragAndDrop": false
+    "editor.dragAndDrop": false,
+    "workbench.activityBar.visible": true,
+    "files.trimFinalNewlines": true,
+    "files.defaultLanguage": "markdown",
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.scrollBeyondLastLine": false
 }
