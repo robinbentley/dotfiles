@@ -12,7 +12,8 @@
     },
     "[python]": {
         "editor.tabSize": 4,
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.rulers": [80,120]
     },
     "editor.tabSize": 2,
     "workbench.colorTheme": "Boxy Ocean",
