@@ -27,7 +27,9 @@
         "**/bower_components": true,
         "**/tmp": true,
         "**/docs": true,
-        "**/vendor": true
+        "**/vendor": true,
+        "**/env": true,
+        "**/cache": true
     },
     "editor.minimap.enabled": false,
     "window.zoomLevel": 0,
