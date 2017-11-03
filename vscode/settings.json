@@ -91,5 +91,9 @@
     "files.defaultLanguage": "markdown",
     "workbench.editor.enablePreview": true,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.scrollBeyondLastLine": false
+    "editor.scrollBeyondLastLine": false,
+    "editor.colorDecorators": false,
+    "color-highlight.matchWords": false,
+    "color-highlight.markRuler": false,
+    "color-highlight.markerType": "background"
 }
