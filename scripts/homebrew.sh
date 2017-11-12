@@ -47,8 +47,8 @@ brew_install yarn
 brew_install python
 brew_install python3
 brew_install neofetch
-
-brew tap neovim/neovim
-brew_install neovim
+brew_install ansible
+brew_install go
+brew_install hugo
 
 brew cleanup

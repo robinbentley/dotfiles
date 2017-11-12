@@ -39,9 +39,3 @@ export PATH="/usr/local/sbin:$PATH"
 # make sure /usr/local/bin is always before /usr/bin
 # =====================================================
 export PATH=/usr/local/bin:$PATH
-
-# =====================================================
-# use MAMP php on cli for wp-cli
-# =====================================================
-# export MAMP_PHP=/Applications/MAMP/bin/php/php5.6.10/bin
-# export PATH="$MAMP_PHP:$PATH:/Applications/MAMP/Library/bin"

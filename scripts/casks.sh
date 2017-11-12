@@ -42,11 +42,13 @@ cask_install slack
 # media
 cask_install spotify
 cask_install transmission
+cask_install vlc
 
 # utils
 cask_install coconutbattery
 cask_install appcleaner
 cask_install kap
 cask_install the-unarchiver
+cask_install keybase
 
 brew cask cleanup
