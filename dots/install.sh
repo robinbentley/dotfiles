@@ -5,8 +5,8 @@ ln -sfv ~/dotfiles/dots/gitconfig ~/.gitconfig
 ln -sfv ~/dotfiles/dots/gemrc ~/.gemrc
 ln -sfv ~/dotfiles/dots/gitignore.global ~/.gitignore.global
 
-mkdir ~/.config/htop/
+mkdir -p ~/.config/htop/
 ln -sfv ~/dotfiles/dots/htoprc ~/.config/htop/htoprc
 
-mkdir ~/.config/neofetch/
+mkdir -p ~/.config/neofetch/
 ln -sfv ~/dotfiles/dots/neofetchrc ~/.config/neofetch/neofetchrc

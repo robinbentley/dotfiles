@@ -15,5 +15,6 @@ else
   wget https://packagecontrol.io/Package%20Control.sublime-package -P ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
 fi
 
-echo "Linking sublime preferance files..."
+echo "Linking sublime preference files..."
+mkdir -p ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -sfv $(pwd)/sublime/*.sublime* "${sublime_user_package_dir}"
