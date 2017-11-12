@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
     "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
     "editor.lineHeight": 32,
@@ -17,9 +17,9 @@
     },
     "editor.tabSize": 2,
     "workbench.colorTheme": "Boxy Ocean",
-    "workbench.iconTheme": "vs-seti",
+    "workbench.iconTheme": "vscode-great-icons",
     "workbench.startupEditor": "none",
-    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.lineHeight": 1.2,
     "search.exclude": {
         "**/.git": true,
@@ -87,6 +87,7 @@
     "python.linting.pylintEnabled": false,
     "python.linting.pep8Enabled": true,
     "python.formatting.provider": "autopep8",
+    "python.pythonPath": "/usr/local/bin/python3",
     "editor.dragAndDrop": false,
     "workbench.activityBar.visible": true,
     "files.trimFinalNewlines": true,
@@ -98,5 +99,6 @@
     "color-highlight.matchWords": false,
     "color-highlight.markRuler": false,
     "color-highlight.markerType": "background",
-    "workbench.panel.location": "right"
+    "workbench.panel.location": "right",
+    "explorer.decorations.badges": false
 }

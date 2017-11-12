@@ -9,7 +9,7 @@ package_control_is_installed() {
 
 echo "Installing sublime package control..."
 if package_control_is_installed ; then
-  echo "Package Control is already installed.."
+  echo "Package Control is already installed..."
 else
   echo "Installing Package Control to ${sublime_installed_packages_dir}"
   wget https://packagecontrol.io/Package%20Control.sublime-package -P ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages

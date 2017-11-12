@@ -14,6 +14,10 @@ alias dot='cd ~/dotfiles'
 # network
 alias ping='ping -c 5'
 
+# use homebrew python/pip
+alias python="/usr/local/bin/python3"
+alias pip="/usr/local/bin/python3 -m pip"
+
 # remove any un-needed deps from brew
 alias brewnuke="brew cleanup -s && brew cask cleanup && brew prune"
 
