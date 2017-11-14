@@ -20,7 +20,7 @@
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.startupEditor": "none",
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.lineHeight": 1.1,
     "search.exclude": {
         "**/.git": true,
         "**/node_modules": true,
@@ -85,7 +85,8 @@
         "**/__pycache__": true
     },
     "python.linting.pylintEnabled": false,
-    "python.linting.pep8Enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pydocstyleEnabled": false,
     "python.formatting.provider": "autopep8",
     "python.pythonPath": "/usr/local/bin/python3",
     "editor.dragAndDrop": false,
