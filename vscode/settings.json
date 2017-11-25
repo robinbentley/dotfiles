@@ -100,6 +100,7 @@
     "color-highlight.matchWords": false,
     "color-highlight.markRuler": false,
     "color-highlight.markerType": "background",
-    "workbench.panel.location": "right",
-    "explorer.decorations.badges": false
+    "workbench.panel.location": "bottom",
+    "explorer.decorations.badges": false,
+    "editor.tabCompletion": true,
 }
