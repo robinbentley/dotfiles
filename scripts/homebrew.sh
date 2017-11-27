@@ -37,11 +37,11 @@ ln -sf /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
 brew_install zsh
 brew_install git
+brew_install git-lfs
 brew_install wget --with-iri
 brew_install vim
 brew_install tree
 brew_install htop
-brew_install git-lfs
 brew_install nvm
 brew_install yarn
 brew_install python
@@ -50,5 +50,6 @@ brew_install neofetch
 brew_install ansible
 brew_install go
 brew_install hugo
+brew_install youtube-dl
 
 brew cleanup

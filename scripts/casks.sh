@@ -28,7 +28,8 @@ cask_install vagrant
 cask_install virtualbox
 
 # design
-cask_install sketch
+cask_install figma
+cask_install gimp
 cask_install colorsnapper
 
 # browsers
