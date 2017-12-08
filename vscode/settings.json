@@ -101,6 +101,5 @@
     "color-highlight.markRuler": false,
     "color-highlight.markerType": "background",
     "workbench.panel.location": "bottom",
-    "explorer.decorations.badges": false,
-    "editor.tabCompletion": true,
+    "explorer.decorations.badges": false
 }
