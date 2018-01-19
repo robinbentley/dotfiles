@@ -13,7 +13,7 @@ export PATH="$PATH:$GOPATH/bin"
 # add nvm to path
 # =====================================================
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+  . "/usr/local/opt/nvm/nvm.sh"
 
 # =====================================================
 # make virtualenv easier with virtualenvwrapper
