@@ -101,5 +101,10 @@
     "color-highlight.markRuler": false,
     "color-highlight.markerType": "background",
     "explorer.decorations.badges": false,
-    "css.validate": false
+    "css.validate": false,
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-apple-darwin",
+        "nightlyToolchain": "nightly-x86_64-apple-darwin"
+    },
+    "rust.mode": "legacy"
 }

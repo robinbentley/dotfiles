@@ -40,6 +40,7 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"ApacheConf.tmLanguage",
 		"SHS-At-Rule",
 		"SHS-Bourbon",
 		"SHS-Bourbon-Neat",
