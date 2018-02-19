@@ -72,7 +72,8 @@
     "emmet.showAbbreviationSuggestions": false,
     "emmet.showSuggestionsAsSnippets": false,
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
+        "javascript": "javascriptreact",
+        "twig": "html"
     },
     "workbench.sideBar.location": "left",
     "files.exclude": {
@@ -106,5 +107,6 @@
         "toolchain": "stable-x86_64-apple-darwin",
         "nightlyToolchain": "nightly-x86_64-apple-darwin"
     },
-    "rust.mode": "legacy"
+    "rust.mode": "legacy",
+    "workbench.editor.showTabs": true
 }
