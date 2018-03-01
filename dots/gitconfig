@@ -1,6 +1,7 @@
 [user]
     name = Robin Bentley
     email = robinbentley@me.com
+	signingkey = 6591EAB51179319F
 
 [core]
     editor = vim

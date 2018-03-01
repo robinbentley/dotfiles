@@ -9,3 +9,6 @@ source ~/dotfiles/shell/aliases.sh
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /Users/robin/Code/serverless/catfacts/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/robin/Code/serverless/catfacts/node_modules/tabtab/.completions/sls.zsh
+
+# @TODO - how does GPG transfer between machines?
+export GPG_TTY=$(tty)
