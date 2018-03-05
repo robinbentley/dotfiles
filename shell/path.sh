@@ -22,7 +22,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
     source /usr/local/bin/virtualenvwrapper.sh
 else
@@ -32,10 +32,4 @@ fi
 # =====================================================
 # Add brew /bin and /sbin to path
 # =====================================================
-export PATH="$(brew --prefix)/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
-
-# =====================================================
-# make sure /usr/local/bin is always before /usr/bin
-# =====================================================
-export PATH=/usr/local/bin:$PATH
+export PATH="$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH"
