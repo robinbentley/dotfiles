@@ -7,6 +7,12 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "explorer.openEditors.visible": 0,
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true
+    },
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
@@ -15,7 +21,7 @@
         "editor.formatOnSave": true,
         "editor.rulers": [80,120]
     },
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "workbench.colorTheme": "Boxy Ocean",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.startupEditor": "none",
