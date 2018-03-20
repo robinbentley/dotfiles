@@ -44,8 +44,9 @@ brew_install tree
 brew_install htop
 brew_install nvm
 brew_install yarn
+brew_install python@2
 brew_install python
-brew_install python3
+brew_install pipenv
 brew_install neofetch
 brew_install ansible
 brew_install go
