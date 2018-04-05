@@ -17,5 +17,10 @@
     "key": "shift+cmd+k",
     "command": "-editor.action.deleteLines",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+shift+v",
+    "command": "pasteAndIndent.action",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]

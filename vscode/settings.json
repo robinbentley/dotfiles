@@ -114,5 +114,6 @@
         "nightlyToolchain": "nightly-x86_64-apple-darwin"
     },
     "rust.mode": "legacy",
-    "workbench.editor.showTabs": true
+    "workbench.editor.showTabs": true,
+    "pasteAndIndent.selectAfter": true
 }
