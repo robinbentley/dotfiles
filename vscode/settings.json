@@ -115,5 +115,7 @@
     },
     "rust.mode": "legacy",
     "workbench.editor.showTabs": true,
-    "pasteAndIndent.selectAfter": true
+    "pasteAndIndent.selectAfter": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false
 }
