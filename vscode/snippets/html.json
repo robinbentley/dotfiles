@@ -20,5 +20,27 @@
 			"<?php $1 ?>"
 		],
 		"description": "Output empty php tag"
+	},
+
+	"WordPress short loop": {
+		"prefix": "loop",
+		"body": [
+			"<?php while ( have_posts() ) : the_post(); ?>",
+			"\t${1:<?php the_title(); ?>}$0",
+			"<?php endwhile; ?>"
+		],
+		"description": "Short version of the WordPress loop"
+	},
+
+	"WordPress standard loop": {
+		"prefix": "loop-std",
+		"body": [
+			"<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>",
+			"\t${1:<?php the_title(); ?>}$0",
+			"<?php endwhile; else : ?>",
+			"\t<p><?php esc_html_e( 'No Posts Available.' ); ?></p>",
+			"<?php endif; ?>"
+		],
+		"description": "The standard WordPress loop"
 	}
 }
