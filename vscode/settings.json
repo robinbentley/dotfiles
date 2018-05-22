@@ -2,7 +2,7 @@
 {
     "editor.fontSize": 15,
     "editor.renderWhitespace": "boundary",
-    "editor.fontFamily": "inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'SFMono-Regular', inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
     "editor.lineHeight": 32,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
@@ -43,6 +43,7 @@
         "space_after_anon_function": false,
         "space_in_paren": false
     },
+    "prettier.singleQuote": true,
     "html.format.wrapLineLength": 0,
     "workbench.colorCustomizations": {
         "activityBar.foreground": "#b2b7ba",

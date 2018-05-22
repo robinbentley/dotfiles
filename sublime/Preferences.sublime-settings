@@ -41,6 +41,7 @@
 	"ignored_packages":
 	[
 		"ApacheConf.tmLanguage",
+		"Djaneiro",
 		"SHS-At-Rule",
 		"SHS-Bourbon",
 		"SHS-Bourbon-Neat",
