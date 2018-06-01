@@ -13,7 +13,7 @@ brew_install() {
   if brew_is_installed "$1"; then
     echo ""$1" is already installed..."
   else
-    brew install "$1"
+    brew install "$1" $2
   fi
 }
 
@@ -38,12 +38,13 @@ ln -sf /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 brew_install zsh
 brew_install git
 brew_install git-lfs
-brew_install wget --with-iri
+brew_install wget
 brew_install vim
 brew_install tree
 brew_install htop
 brew_install nvm
-brew_install yarn
+mkdir ~/.nvm
+brew_install yarn "--without-node"
 brew_install python@2
 brew_install python
 brew_install pipenv
