@@ -13,6 +13,9 @@
     "[typescriptreact]": {
         "editor.formatOnSave": true
     },
+    "[vue]": {
+        "editor.formatOnSave": true
+    },
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
@@ -44,6 +47,7 @@
         "space_in_paren": false
     },
     "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
     "html.format.wrapLineLength": 0,
     "workbench.colorCustomizations": {
         "activityBar.foreground": "#b2b7ba",
@@ -96,7 +100,7 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pydocstyleEnabled": false,
     "python.formatting.provider": "autopep8",
-    "python.pythonPath": "/usr/local/bin/python3",
+    // "python.pythonPath": "/usr/local/bin/python3",
     "editor.dragAndDrop": false,
     "workbench.activityBar.visible": true,
     "files.trimFinalNewlines": true,
@@ -118,5 +122,9 @@
     "workbench.editor.showTabs": true,
     "pasteAndIndent.selectAfter": true,
     "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false
+    "telemetry.enableCrashReporter": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "git.confirmSync": false
 }

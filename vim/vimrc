@@ -26,6 +26,7 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'airblade/vim-gitgutter'
 Plug 'sheerun/vim-polyglot'
 Plug 'Raimondi/delimitMate'
+Plug 'pangloss/vim-javascript'
 
 call plug#end()
 
