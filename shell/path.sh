@@ -4,7 +4,12 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31;40'
 
 # =====================================================
-# set go
+# Add brew /bin and /sbin to path
+# =====================================================
+export PATH="$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH"
+
+# =====================================================
+# set go path
 # =====================================================
 export GOPATH="$HOME/.go"
 export PATH="$PATH:$GOPATH/bin"
@@ -21,6 +26,10 @@ export NVM_DIR="$HOME/.nvm"
 export WORKON_HOME=$HOME/.virtualenvs
 
 # =====================================================
-# Add brew /bin and /sbin to path
+# add pyenv to path
 # =====================================================
-export PATH="$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi

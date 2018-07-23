@@ -45,8 +45,7 @@ brew_install htop
 brew_install nvm
 mkdir ~/.nvm
 brew_install yarn "--without-node"
-brew_install python@2
-brew_install python
+brew_install pyenv
 brew_install pipenv
 brew_install neofetch
 brew_install ansible
