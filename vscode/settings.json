@@ -13,20 +13,16 @@
     "[typescriptreact]": {
         "editor.formatOnSave": true
     },
-    "[vue]": {
-        "editor.formatOnSave": true
-    },
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
     "[python]": {
         "editor.tabSize": 4,
         "editor.formatOnSave": true,
-        "editor.rulers": [80,120]
+        "editor.rulers": [80, 120]
     },
     "editor.tabSize": 4,
-    "workbench.colorTheme": "Boxy Ocean",
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Gatito Theme",
     "workbench.startupEditor": "none",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.lineHeight": 1.1,
@@ -50,33 +46,10 @@
     "prettier.tabWidth": 4,
     "html.format.wrapLineLength": 0,
     "workbench.colorCustomizations": {
-        "activityBar.foreground": "#b2b7ba",
-        "activityBar.background": "#1a2b34",
-        "sideBar.background": "#21323a",
-        "statusBar.background": "#21323a",
+        "gitDecoration.modifiedResourceForeground": "#FAC863",
         "statusBar.foreground": "#b2b7ba",
-        "statusBar.debuggingForeground": "#ffffff",
-        "titleBar.activeBackground": "#21323a",
         "editorError.foreground": "#EC5f67",
-        "editorWarning.foreground": "#99C794",
-        "terminal.foreground": "#c0c5ce",
-        "terminal.background": "#1b2b34",
-        "terminal.ansiBlack": "#1B2B34",
-        "terminal.ansiWhite": "#d8dee9",
-        "terminal.ansiBlue": "#6699CC",
-        "terminal.ansiCyan": "#5FB3B3",
-        "terminal.ansiGreen": "#99C794",
-        "terminal.ansiMagenta": "#C594C5",
-        "terminal.ansiYellow": "#FAC863",
-        "terminal.ansiRed": "#EC5f67",
-        "terminal.ansiBrightBlack": "#65737e",
-        "terminal.ansiBrightWhite": "#d8dee9",
-        "terminal.ansiBrightBlue": "#6699CC",
-        "terminal.ansiBrightCyan": "#5FB3B3",
-        "terminal.ansiBrightGreen": "#99C794",
-        "terminal.ansiBrightMagenta": "#C594C5",
-        "terminal.ansiBrightYellow": "#FAC863",
-        "terminal.ansiBrightRed": "#EC5f67"
+        "editorWarning.foreground": "#99C794"
     },
     "files.hotExit": "off",
     "emmet.triggerExpansionOnTab": true,
@@ -100,7 +73,6 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pydocstyleEnabled": false,
     "python.formatting.provider": "autopep8",
-    // "python.pythonPath": "/usr/local/bin/python3",
     "editor.dragAndDrop": false,
     "workbench.activityBar.visible": true,
     "files.trimFinalNewlines": true,
@@ -114,11 +86,6 @@
     "color-highlight.markerType": "background",
     "explorer.decorations.badges": false,
     "css.validate": false,
-    "rust.rustup": {
-        "toolchain": "stable-x86_64-apple-darwin",
-        "nightlyToolchain": "nightly-x86_64-apple-darwin"
-    },
-    "rust.mode": "legacy",
     "workbench.editor.showTabs": true,
     "pasteAndIndent.selectAfter": true,
     "telemetry.enableTelemetry": false,
@@ -126,5 +93,27 @@
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "sync.gist": "1d717ee86556d325e6a7ac778954606a",
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastUpload": "2018-08-18T21:46:04.780Z",
+    "sync.lastDownload": "2018-08-13T20:43:43.323Z",
+    "sync.forceDownload": false,
+    "window.restoreWindows": "none",
+    "window.newWindowDimensions": "fullscreen",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+    },
+    "tslint.autoFixOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.hidesExplorerArrows": true
 }
