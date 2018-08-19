@@ -17,7 +17,7 @@
 	"PHP tag": {
 		"prefix": "php",
 		"body": [
-			"<?php $1 ?>"
+			"<?php $0 ?>"
 		],
 		"description": "Output empty php tag"
 	},
