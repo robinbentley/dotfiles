@@ -2,7 +2,7 @@
 {
     "editor.fontSize": 16,
     "editor.renderWhitespace": "boundary",
-    "editor.fontFamily": "'Operator Mono', 'Operator Mono Lig Book', 'SFMono-Regular', 'SF Mono' , inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Operator Mono Lig', 'Operator Mono Lig Book', 'SFMono-Regular', 'SF Mono' , inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
     "editor.lineHeight": 32,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
@@ -31,7 +31,7 @@
     "editor.tabSize": 4,
     "workbench.colorTheme": "Gatito Theme",
     "workbench.startupEditor": "none",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 15,
     "terminal.integrated.lineHeight": 1.1,
     "search.exclude": {
         "**/.git": true,
@@ -81,7 +81,7 @@
     "python.linting.pydocstyleEnabled": false,
     "python.formatting.provider": "autopep8",
     "editor.dragAndDrop": false,
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "files.trimFinalNewlines": true,
     "files.defaultLanguage": "markdown",
     "workbench.editor.enablePreview": true,
@@ -121,5 +121,12 @@
     "material-icon-theme.hidesExplorerArrows": true,
     "window.menuBarVisibility": "toggle",
     "editor.fontLigatures": true,
-    "window.titleBarStyle": "custom"
+    "window.titleBarStyle": "custom",
+    "github.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ]
 }
