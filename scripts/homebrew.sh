@@ -52,6 +52,5 @@ brew_install ansible
 brew_install go
 brew_install hugo
 brew_install youtube-dl
-brew_install fzf
 
 brew cleanup

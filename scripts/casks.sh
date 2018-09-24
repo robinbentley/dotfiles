@@ -18,19 +18,19 @@ brew_tap caskroom/versions
 echo "Installing casks..."
 # dev
 cask_install iterm2
-cask_install sublime-text
 cask_install visual-studio-code
 cask_install sequel-pro
 cask_install dbeaver-community
-cask_install postman
+cask_install insomnia
 cask_install docker
 cask_install vagrant
 cask_install virtualbox
+cask_install cyberduck
 
 # design
 cask_install figma
-cask_install gimp
 cask_install colorsnapper
+cask_install adobe-creative-cloud
 
 # browsers
 cask_install google-chrome
@@ -39,6 +39,7 @@ cask_install firefox
 
 # social
 cask_install slack
+cask_install google-chat
 
 # media
 cask_install spotify

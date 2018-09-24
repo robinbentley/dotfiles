@@ -9,6 +9,11 @@ export GREP_COLOR='1;31;40'
 export PATH="$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH"
 
 # =====================================================
+# add flutter to path
+# =====================================================
+export PATH=$HOME/code/flutter/bin:$PATH
+
+# =====================================================
 # set go path
 # =====================================================
 export GOPATH="$HOME/.go"
