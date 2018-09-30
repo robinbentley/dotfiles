@@ -34,7 +34,7 @@ cask_install adobe-creative-cloud
 
 # browsers
 cask_install google-chrome
-cask_install firefoxdeveloperedition
+cask_install firefox-developer-edition
 cask_install firefox
 
 # social
@@ -53,4 +53,4 @@ cask_install kap
 cask_install the-unarchiver
 cask_install keybase
 
-brew cask cleanup
+brew cleanup
