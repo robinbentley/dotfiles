@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "'Operator Mono Lig', 'Operator Mono Lig Book', 'SFMono-Regular', 'SF Mono' , inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
     "editor.lineHeight": 32,

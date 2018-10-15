@@ -28,9 +28,7 @@ cask_install virtualbox
 cask_install cyberduck
 
 # design
-cask_install figma
 cask_install colorsnapper
-cask_install adobe-creative-cloud
 
 # browsers
 cask_install google-chrome
