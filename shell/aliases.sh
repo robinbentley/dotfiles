@@ -37,7 +37,7 @@ alias neofetch="neofetch --config ~/.config/neofetch/neofetchrc --shell_version 
 alias screenfetch="neofetch"
 
 # download best audio using youtube-dl
-alias ytaudio="youtube-dl -x --audio-format m4a --audio-quality 0 -o '%(title)s.%(ext)s'"
+alias ytaudio="youtube-dl -x --audio-format mp3 --audio-quality 0 -o '%(title)s.%(ext)s'"
 
 # start screensaver from terminal
 alias ss="open -a ScreenSaverEngine"
