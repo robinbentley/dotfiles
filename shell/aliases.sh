@@ -41,3 +41,6 @@ alias ytaudio="youtube-dl -x --audio-format m4a --audio-quality 0 -o '%(title)s.
 
 # start screensaver from terminal
 alias ss="open -a ScreenSaverEngine"
+
+# docker
+alias dc="docker-compose"
