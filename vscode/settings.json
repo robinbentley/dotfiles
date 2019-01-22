@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
+
     "editor.fontSize": 15,
     "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "'Operator Mono Lig', 'Operator Mono Lig Book', 'SFMono-Regular', 'SF Mono' , inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
@@ -61,7 +62,7 @@
     "files.hotExit": "off",
     "emmet.triggerExpansionOnTab": true,
     "emmet.showAbbreviationSuggestions": false,
-    "emmet.showSuggestionsAsSnippets": false,
+    "emmet.showSuggestionsAsSnippets": true,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact",
         "twig": "html"
