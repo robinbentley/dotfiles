@@ -1,7 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "'Operator Mono Lig', 'Operator Mono Lig Book', 'SFMono-Regular', 'SF Mono' , inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
     "editor.lineHeight": 32,
@@ -121,5 +120,13 @@
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.hidesExplorerArrows": true,
     "editor.fontLigatures": true,
-    "window.titleBarStyle": "custom"
+    "window.titleBarStyle": "custom",
+    "sass.disableAutoIndent": true,
+    "spotify.showLyricsButton": false,
+    "spotify.showMuteUnmuteVolumeButton": false,
+    "spotify.showNextButton": false,
+    "spotify.showPlayPauseButton": false,
+    "spotify.showPreviousButton": false,
+    "spotify.showSignInButton": false,
+    "spotify.showSignOutButton": false
 }
