@@ -31,8 +31,8 @@
     "editor.tabSize": 4,
     "workbench.colorTheme": "Gatito Theme",
     "workbench.startupEditor": "none",
-    "terminal.integrated.fontSize": 15,
-    "terminal.integrated.lineHeight": 1.1,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.2,
     "search.exclude": {
         "**/.git": true,
         "**/node_modules": true,
@@ -115,7 +115,9 @@
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
     },
-    "tslint.autoFixOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.hidesExplorerArrows": true,
@@ -128,5 +130,7 @@
     "spotify.showPlayPauseButton": false,
     "spotify.showPreviousButton": false,
     "spotify.showSignInButton": false,
-    "spotify.showSignOutButton": false
+    "spotify.showSignOutButton": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "rust-client.channel": "stable"
 }

@@ -19,7 +19,7 @@ alias py="/usr/local/bin/python3"
 alias pi="/usr/local/bin/python3 -m pip"
 
 # remove any un-needed deps from brew
-alias brewnuke="brew cleanup -s && brew prune"
+alias brewnuke="brew cleanup -s"
 
 # use sub to launch sublime
 alias sub="subl"

@@ -78,6 +78,18 @@ let g:mapleader=","
 " double tap jj to exit insertmode
 imap jj <esc>
 
+" don't use arrowkeys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
+" really, just don't
+inoremap <Up>    <NOP>
+inoremap <Down>  <NOP>
+inoremap <Left>  <NOP>
+inoremap <Right> <NOP>
+
 " easier movement between splits
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -103,6 +115,7 @@ let g:airline_right_sep = ''
 " nerdtree
 map <leader>n :NERDTreeToggle<CR>
 let NERDTreeChDirMode=2
+let g:NERDTreeQuitOnOpen=1 "close NERDTree when a file is opened
 
 let g:NERDTreeDirArrowExpandable = '↘'
 let g:NERDTreeDirArrowCollapsible = '↖'

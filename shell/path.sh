@@ -11,7 +11,7 @@ export PATH="$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH"
 # =====================================================
 # add flutter to path
 # =====================================================
-export PATH=$HOME/code/flutter/bin:$PATH
+export PATH=$HOME/.flutter-sdk/flutter/bin:$PATH
 
 # =====================================================
 # set go path
@@ -43,3 +43,8 @@ fi
 # add brew ruby to path
 # =====================================================
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+# =====================================================
+# add cargo to path
+# =====================================================
+export PATH="$HOME/.cargo/bin:$PATH"
