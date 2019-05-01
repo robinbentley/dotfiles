@@ -678,10 +678,12 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>177 280 445 77 0 0 1440 877 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>179 617 400 129 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 363 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>85 388 918 423 0 0 1440 877 </string>
+	<string>85 451 918 423 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>630 0 810 877 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -690,7 +692,7 @@
 			<key>ASCII Anti Aliased</key>
 			<true/>
 			<key>ASCII Ligatures</key>
-			<true/>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -2211,13 +2213,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-03-03T12:28:57Z</date>
+	<date>2019-04-30T22:03:27Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.12919170673076927</real>
 	<key>TabStyle</key>
@@ -2231,7 +2233,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.2.7</string>
+	<string>3.2.9</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>1</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

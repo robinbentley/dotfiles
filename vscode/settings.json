@@ -11,7 +11,8 @@
         "editor.formatOnSave": true
     },
     "[typescriptreact]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
         "files.trimTrailingWhitespace": false,
@@ -132,5 +133,18 @@
     "spotify.showSignInButton": false,
     "spotify.showSignOutButton": false,
     "terminal.external.osxExec": "iTerm.app",
-    "rust-client.channel": "stable"
+    "rust-client.channel": "stable",
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "update.mode": "manual"
 }
