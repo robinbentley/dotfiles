@@ -2,6 +2,7 @@ source ~/dotfiles/shell/path.sh
 source ~/dotfiles/shell/completions.sh
 source ~/dotfiles/shell/prompt.sh
 source ~/dotfiles/shell/aliases.sh
+source ~/dotfiles/shell/funcs.sh
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
