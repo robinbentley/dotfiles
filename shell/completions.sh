@@ -1,3 +1,8 @@
+# add brew completions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
 # load completions
 autoload -U compinit
 compinit -C
