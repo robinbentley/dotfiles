@@ -8,7 +8,8 @@
     "files.insertFinalNewline": true,
     "explorer.openEditors.visible": 0,
     "[typescript]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescriptreact]": {
         "editor.formatOnSave": true,
@@ -89,9 +90,6 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.scrollBeyondLastLine": false,
     "editor.colorDecorators": false,
-    "color-highlight.matchWords": false,
-    "color-highlight.markRuler": false,
-    "color-highlight.markerType": "background",
     "explorer.decorations.badges": false,
     "css.validate": false,
     "workbench.editor.showTabs": true,
@@ -125,13 +123,6 @@
     "editor.fontLigatures": true,
     "window.titleBarStyle": "custom",
     "sass.disableAutoIndent": true,
-    "spotify.showLyricsButton": false,
-    "spotify.showMuteUnmuteVolumeButton": false,
-    "spotify.showNextButton": false,
-    "spotify.showPlayPauseButton": false,
-    "spotify.showPreviousButton": false,
-    "spotify.showSignInButton": false,
-    "spotify.showSignOutButton": false,
     "terminal.external.osxExec": "iTerm.app",
     "rust-client.channel": "stable",
     "[html]": {
@@ -146,5 +137,6 @@
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "update.mode": "manual"
+    "editor.renderControlCharacters": true,
+    "breadcrumbs.enabled": true
 }
