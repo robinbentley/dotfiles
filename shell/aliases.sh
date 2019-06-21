@@ -10,6 +10,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ~='cd ~'
 alias dot='cd ~/dotfiles'
+alias goroot='cd $GOPATH/src/github.com/robinbentley'
 
 # network
 alias ping='ping -c 5'
