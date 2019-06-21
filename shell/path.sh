@@ -42,7 +42,8 @@ fi
 # =====================================================
 # add brew ruby to path
 # =====================================================
-export PATH="/usr/local/opt/ruby/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
 
 # =====================================================
 # add cargo to path

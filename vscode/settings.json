@@ -138,5 +138,12 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.renderControlCharacters": true,
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": false,
+    "go.liveErrors": {
+        "enabled": true,
+        "delay": 300
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
