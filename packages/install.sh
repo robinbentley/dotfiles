@@ -32,23 +32,6 @@ echo "Upgrading homebrew..."
 brew upgrade
 
 echo "Installing homebrew packages..."
-brew_install coreutils
+brew bundle install --file="$(pwd)/packages/Brewfile"
 ln -sf /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
-
-brew_install zsh
-brew_install git
-brew_install git-lfs
-brew_install wget
-brew_install vim
-brew_install tree
-brew_install htop
-brew_install nvm
 mkdir ~/.nvm
-brew_install yarn "--without-node"
-brew_install pyenv
-brew_install pipenv
-brew_install neofetch
-brew_install ansible
-brew_install go
-brew_install hugo
-brew_install youtube-dl
