@@ -1,8 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 14,
     "editor.renderWhitespace": "boundary",
-    "editor.fontFamily": "'Operator Mono Lig', 'Operator Mono Lig Book', 'SFMono-Regular', 'SF Mono' , inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'SFMono-Regular', 'SF Mono' , inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
     "editor.lineHeight": 32,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
@@ -120,7 +119,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.hidesExplorerArrows": true,
-    "editor.fontLigatures": true,
     "window.titleBarStyle": "custom",
     "sass.disableAutoIndent": true,
     "terminal.external.osxExec": "iTerm.app",
@@ -145,5 +143,13 @@
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "ruby.lint": {
+        "rubocop": true
+    },
+    "[ruby]": {
+        "editor.formatOnSave": true
+    },
+    "ruby.format": "rubocop",
+    "editor.fontSize": 13,
 }
