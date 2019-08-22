@@ -6,3 +6,4 @@ bower_components/
 .vscode
 *.gitignore.*
 .env
+.python-version

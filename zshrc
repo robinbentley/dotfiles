@@ -13,3 +13,7 @@ source ~/dotfiles/shell/funcs.sh
 
 # @TODO - how does GPG transfer between machines?
 export GPG_TTY=$(tty)
+
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /Users/robin/.nvm/versions/node/v10.16.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/robin/.nvm/versions/node/v10.16.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh

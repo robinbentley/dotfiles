@@ -152,4 +152,7 @@
     },
     "ruby.format": "rubocop",
     "editor.fontSize": 13,
+    "extensions.autoUpdate": true,
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
 }
