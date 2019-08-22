@@ -101,7 +101,6 @@
     "git.confirmSync": false,
     "sync.gist": "1d717ee86556d325e6a7ac778954606a",
     "sync.quietSync": false,
-    "sync.askGistName": false,
     "sync.removeExtensions": true,
     "sync.syncExtensions": true,
     "sync.autoDownload": false,
@@ -120,7 +119,6 @@
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.hidesExplorerArrows": true,
     "window.titleBarStyle": "custom",
-    "sass.disableAutoIndent": true,
     "terminal.external.osxExec": "iTerm.app",
     "rust-client.channel": "stable",
     "[html]": {
@@ -139,7 +137,7 @@
     "breadcrumbs.enabled": false,
     "go.liveErrors": {
         "enabled": true,
-        "delay": 300
+        "delay": 100
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -154,5 +152,5 @@
     "editor.fontSize": 13,
     "extensions.autoUpdate": true,
     "go.formatTool": "goimports",
-    "go.useLanguageServer": true,
+    "go.useLanguageServer": true
 }
