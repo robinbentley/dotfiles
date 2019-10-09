@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.renderWhitespace": "boundary",
-    "editor.fontFamily": "'SFMono-Regular', 'SF Mono' , inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "inconsolata-g, Menlo, Monaco, 'Courier New', monospace",
     "editor.lineHeight": 32,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
@@ -115,7 +115,6 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.tslint": true
     },
-    "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.hidesExplorerArrows": true,
     "window.titleBarStyle": "custom",
@@ -152,5 +151,10 @@
     "editor.fontSize": 13,
     "extensions.autoUpdate": true,
     "go.formatTool": "goimports",
-    "go.useLanguageServer": true
+    "go.useLanguageServer": true,
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.preferences.quoteStyle": "single",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.octiconsUpdate.enabled": true
 }
