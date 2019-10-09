@@ -29,6 +29,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 call plug#end()
 
@@ -141,6 +142,9 @@ let g:ctrlp_custom_ignore = {
   \ }
 
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 " =====================================================
 " Functions
 " =====================================================
