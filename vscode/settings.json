@@ -152,6 +152,7 @@
     "extensions.autoUpdate": true,
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
+    "go.autocompleteUnimportedPackages": true,
     "typescript.preferences.quoteStyle": "single",
     "javascript.preferences.quoteStyle": "single",
     "diffEditor.ignoreTrimWhitespace": true,
