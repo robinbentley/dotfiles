@@ -134,10 +134,6 @@
     },
     "editor.renderControlCharacters": true,
     "breadcrumbs.enabled": false,
-    "go.liveErrors": {
-        "enabled": true,
-        "delay": 100
-    },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -150,12 +146,28 @@
     "ruby.format": "rubocop",
     "editor.fontSize": 13,
     "extensions.autoUpdate": true,
-    "go.formatTool": "goimports",
-    "go.useLanguageServer": true,
-    "go.autocompleteUnimportedPackages": true,
     "typescript.preferences.quoteStyle": "single",
     "javascript.preferences.quoteStyle": "single",
     "diffEditor.ignoreTrimWhitespace": true,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.octiconsUpdate.enabled": true
+    "go.useLanguageServer": true,
+    "go.formatTool": "goimports",
+    "go.liveErrors": {
+        "enabled": true,
+        "delay": 100
+    },
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        }
+    },
+    "gopls": {
+        "usePlaceholders": true, // add parameter placeholders when completing a function
+        // Experimental settings
+        "completeUnimported": true, // autocomplete unimported packages
+        "watchFileChanges": true,  // watch file changes outside of the editor
+        "deepCompletion": true,     // enable deep completion
+    },
 }
