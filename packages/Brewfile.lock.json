@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "491e2fbd399d1467f3cfab7fe4c4f07b17bfab7f"
+        "revision": "d7f55b0a90c6870d1944599f8cd6104141523deb"
       },
       "homebrew/cask": {
-        "revision": "a19fd996a1f7bc52e53b7850f1daa072798ab17e"
+        "revision": "5e45a67f0973fd2778f15b21ab56474c94d95c4f"
       },
       "homebrew/cask-versions": {
-        "revision": "30d7d8efe332cb7b2e68b3d98fe2cb6b12d7b4a7"
+        "revision": "0bb9dcbbc2e56198088a556e667db922c52fdc33"
       },
       "homebrew/core": {
-        "revision": "92825ca1a32fcc1ce50ba280ecd87ec3f31809f1"
+        "revision": "cbf47cf3026f27b6b90fe6b23b7291732aeb5743"
       }
     },
     "brew": {
@@ -22,16 +22,16 @@
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/ansible-2.9.2.catalina.bottle.1.tar.gz",
-              "sha256": "ce13d36d45f503c545b18ea243763c87de6f51dbc2cd8bb5be8c0a9209931a59"
+              "url": "https://homebrew.bintray.com/bottles/ansible-2.9.2.catalina.bottle.2.tar.gz",
+              "sha256": "af0ca35be9c42ad8167fbdb497438814ebb7ba3a08a96431360a91af37064736"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/ansible-2.9.2.mojave.bottle.1.tar.gz",
-              "sha256": "3aa1c3c50b68e086799fa0e775ad4039aede3697cbba99b9c336e6cc7eeb8231"
+              "url": "https://homebrew.bintray.com/bottles/ansible-2.9.2.mojave.bottle.2.tar.gz",
+              "sha256": "616b96839755a08668908e5fc53d62bf987164a395c90b2afde6a659c2d483b1"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/ansible-2.9.2.high_sierra.bottle.1.tar.gz",
-              "sha256": "56ddc3764ecfb4ca657ebb8f9f8b6e986ed580c86508edc1d19ebb1954025df8"
+              "url": "https://homebrew.bintray.com/bottles/ansible-2.9.2.high_sierra.bottle.2.tar.gz",
+              "sha256": "8bab39fa0731d7868724cacbef2ceb716fc99481be1d1cf04d16d000800db286"
             }
           }
         }
@@ -822,7 +822,7 @@
         "version": "19.9.101"
       },
       "google-chrome": {
-        "version": "78.0.3904.87"
+        "version": "78.0.3904.97"
       },
       "insomnia": {
         "version": "7.0.3"
@@ -882,10 +882,10 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "92825ca1a32fcc1ce50ba280ecd87ec3f31809f1",
-        "CLT": "11.2.0.0.1.1571444319",
+        "Homebrew/homebrew-core": "cbf47cf3026f27b6b90fe6b23b7291732aeb5743",
+        "CLT": "1100.0.33.16",
         "Xcode": "11.2.1",
-        "macOS": "10.15.1"
+        "macOS": "10.15.2"
       }
     }
   }
