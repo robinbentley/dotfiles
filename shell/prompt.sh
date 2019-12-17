@@ -5,6 +5,11 @@ colors
 # allow functions in the prompt
 setopt PROMPT_SUBST
 
+# grep colors
+export CLICOLOR=1
+export GREP_OPTIONS='--color=auto'
+export GREP_COLOR='1;31;40'
+
 # =====================================================
 # git prompt
 # taken from https://github.com/olivierverdier/zsh-git-prompt
