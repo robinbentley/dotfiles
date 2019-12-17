@@ -170,4 +170,7 @@
         "watchFileChanges": true,  // watch file changes outside of the editor
         "deepCompletion": true,     // enable deep completion
     },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    }
 }
