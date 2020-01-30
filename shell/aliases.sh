@@ -15,15 +15,8 @@ alias goroot='cd $GOPATH/src/github.com/robinbentley'
 # network
 alias ping='ping -c 5'
 
-# use homebrew python/pip
-alias py="/usr/local/bin/python3"
-alias pi="/usr/local/bin/python3 -m pip"
-
 # remove any un-needed deps from brew
 alias brewnuke="brew cleanup -s"
-
-# use sub to launch sublime
-alias sub="subl"
 
 # git aliases
 alias gs="git status"
