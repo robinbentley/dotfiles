@@ -40,4 +40,6 @@ alias ss="open -a ScreenSaverEngine"
 alias dc="docker-compose"
 
 # use https://github.com/sharkdp/bat over cat
-alias cat="bat"
+alias cat="bat --theme=base16 --style=plain"
+alias catl="bat --theme=base16"
+alias batl="catl"
