@@ -22,8 +22,5 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-# add poetry
-export PATH="$HOME/.poetry/bin:$PATH"
-
 # add helm v2 to path
 export PATH="/usr/local/opt/helm@2/bin:$PATH"
