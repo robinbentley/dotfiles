@@ -119,7 +119,6 @@
     "material-icon-theme.hidesExplorerArrows": true,
     "window.titleBarStyle": "custom",
     "terminal.external.osxExec": "iTerm.app",
-    "rust-client.channel": "stable",
     "[html]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
@@ -137,13 +136,6 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "ruby.lint": {
-        "rubocop": true
-    },
-    "[ruby]": {
-        "editor.formatOnSave": true
-    },
-    "ruby.format": "rubocop",
     "editor.fontSize": 13,
     "extensions.autoUpdate": true,
     "typescript.preferences.quoteStyle": "single",
@@ -176,5 +168,8 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "explorer.compactFolders": false
+    "explorer.compactFolders": false,
+    "python.venvFolders": [
+        "/Users/robin/Library/Caches/pypoetry/virtualenvs/"
+    ]
 }
