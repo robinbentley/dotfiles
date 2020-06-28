@@ -30,7 +30,6 @@
         "editor.formatOnSave": true
     },
     "editor.tabSize": 4,
-    "workbench.colorTheme": "Gatito Theme",
     "workbench.startupEditor": "none",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.lineHeight": 1.2,
@@ -80,7 +79,7 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.pydocstyleEnabled": false,
-    "python.formatting.provider": "autopep8",
+    "python.formatting.provider": "black",
     "editor.dragAndDrop": false,
     "workbench.activityBar.visible": false,
     "files.trimFinalNewlines": true,
@@ -140,7 +139,7 @@
     "extensions.autoUpdate": true,
     "typescript.preferences.quoteStyle": "single",
     "javascript.preferences.quoteStyle": "single",
-    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "workbench.iconTheme": "material-icon-theme",
     "go.useLanguageServer": true,
     "go.formatTool": "goimports",
@@ -171,5 +170,10 @@
     "explorer.compactFolders": false,
     "python.venvFolders": [
         "/Users/robin/Library/Caches/pypoetry/virtualenvs/"
-    ]
+    ],
+    "workbench.colorTheme": "Gatito Theme",
+    "diffEditor.renderSideBySide": true,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
