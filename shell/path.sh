@@ -1,26 +1,32 @@
-# Add brew /bin and /sbin to path
+# brew /bin and /sbin
 export PATH="$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH"
 
 # add flutter to path
 export PATH=$HOME/.flutter-sdk/flutter/bin:$PATH
 
-# set go path
+# go
 export GOPATH="$HOME/.go"
 export PATH="$PATH:$GOPATH/bin"
 
-# add nvm to path
+# nvm
 export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"
 
 # keep virtualenvs in one place
 export WORKON_HOME=$HOME/.virtualenvs
 
-# add pyenv to path
+# pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-# add helm v2 to path
+# helm v2
 export PATH="/usr/local/opt/helm@2/bin:$PATH"
+
+# mysql-client
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+
+# symfony
+export PATH="$HOME/.symfony/bin:$PATH"
