@@ -22,9 +22,6 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-# helm v2
-export PATH="/usr/local/opt/helm@2/bin:$PATH"
-
 # mysql-client
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
