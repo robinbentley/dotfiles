@@ -43,3 +43,8 @@ alias dc="docker-compose"
 alias cat="bat --theme=base16 --style=plain"
 alias catl="bat --theme=base16"
 alias batl="catl"
+
+# kubectl
+alias kucontexts="kubectl config get-contexts"
+alias kuprod="kubectl config use-context production"
+alias kustage="kubectl config use-context staging"
