@@ -175,5 +175,10 @@
     "diffEditor.renderSideBySide": true,
     "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "prettier.trailingComma": "none",
+    "timeline.excludeSources": [],
+    "[mjml]": {
+        "editor.defaultFormatter": "mjmlio.vscode-mjml"
+    },
 }
