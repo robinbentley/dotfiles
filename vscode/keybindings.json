@@ -5,10 +5,6 @@
     "command": "editor.emmet.action.wrapWithAbbreviation"
   },
   {
-    "key": "ctrl+w",
-    "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation"
-  },
-  {
     "key": "shift+cmd+backspace",
     "command": "editor.action.deleteLines",
     "when": "editorTextFocus && !editorReadonly"

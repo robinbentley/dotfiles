@@ -125,6 +125,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
+        "editor.formatOnSave": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[jsonc]": {
@@ -158,14 +159,14 @@
         "usePlaceholders": true, // add parameter placeholders when completing a function
         // Experimental settings
         "completeUnimported": true, // autocomplete unimported packages
-        "watchFileChanges": true,  // watch file changes outside of the editor
         "deepCompletion": true,     // enable deep completion
     },
     "[yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
     },
     "explorer.compactFolders": false,
     "python.venvFolders": [
@@ -180,5 +181,8 @@
     "timeline.excludeSources": [],
     "[mjml]": {
         "editor.defaultFormatter": "mjmlio.vscode-mjml"
+    },
+    "files.associations": {
+        "*.js": "javascriptreact"
     },
 }
