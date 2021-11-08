@@ -44,7 +44,6 @@
         "**/cache": true
     },
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
     "beautify.config": {
         "space_after_anon_function": false,
         "space_in_paren": false
@@ -185,10 +184,7 @@
     "files.associations": {
         "*.js": "javascriptreact"
     },
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
 }
