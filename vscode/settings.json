@@ -108,7 +108,7 @@
     "window.newWindowDimensions": "maximized",
     "files.watcherExclude": {
         "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
+        "**/.git/subtree-cache/**": true
     },
     "editor.codeActionsOnSave": {
         "source.fixAll.tslint": true
@@ -151,14 +151,14 @@
         "editor.snippetSuggestions": "none",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true,
+            "source.organizeImports": true
         }
     },
     "gopls": {
         "usePlaceholders": true, // add parameter placeholders when completing a function
         // Experimental settings
         "completeUnimported": true, // autocomplete unimported packages
-        "deepCompletion": true,     // enable deep completion
+        "deepCompletion": true // enable deep completion
     },
     "[yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -168,9 +168,7 @@
         "editor.formatOnSave": true
     },
     "explorer.compactFolders": false,
-    "python.venvFolders": [
-        "/Users/robin/Library/Caches/pypoetry/virtualenvs/"
-    ],
+    "python.venvFolders": ["/Users/robin/Library/Caches/pypoetry/virtualenvs/"],
     "workbench.colorTheme": "Gatito Theme",
     "diffEditor.renderSideBySide": true,
     "[scss]": {
@@ -187,4 +185,7 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
+
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active"
 }
