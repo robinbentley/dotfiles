@@ -185,7 +185,10 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
+    "window.zoomLevel": 0,
 
     "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active"
+    "editor.guides.bracketPairs": "active",
+    "go.toolsManagement.autoUpdate": true,
+    "telemetry.telemetryLevel": "off"
 }
