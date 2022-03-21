@@ -52,3 +52,4 @@ alias kupods="kubectl get pods"
 alias kudeletepod="kubectl delete pod"
 alias kudescribepod="kubectl describe pod"
 alias kulogs="kubectl logs"
+alias kushell='function _kubectlshell(){ kubectl exec --stdin --tty "$1" -- /bin/sh; };_kubectlshell'
