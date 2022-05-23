@@ -91,8 +91,6 @@
     "css.validate": false,
     "workbench.editor.showTabs": true,
     "pasteAndIndent.selectAfter": true,
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
@@ -168,9 +166,9 @@
         "editor.formatOnSave": true
     },
     "explorer.compactFolders": false,
-    "python.venvFolders": ["/Users/robin/Library/Caches/pypoetry/virtualenvs/"],
-    "workbench.colorTheme": "Gatito Theme",
-    "diffEditor.renderSideBySide": true,
+    "python.venvFolders": [
+        "/Users/robin/Library/Caches/pypoetry/virtualenvs/"
+    ],
     "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -185,10 +183,11 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
-    "window.zoomLevel": 0,
-
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "go.toolsManagement.autoUpdate": true,
-    "telemetry.telemetryLevel": "off"
+    "telemetry.telemetryLevel": "off",
+    "workbench.colorTheme": "Gatito Theme",
+
+    "editor.accessibilitySupport": "off"
 }
