@@ -46,7 +46,7 @@ alias batl="catl"
 
 # kubectl
 alias kucontexts="kubectl config get-contexts"
-alias kuprod="kubectl config use-context production"
+alias kuprod="kubectl config use-context podcast-production-v2"
 alias kustage="kubectl config use-context podcast-staging-v2"
 alias kupods="kubectl get pods"
 alias kudeletepod="kubectl delete pod"
