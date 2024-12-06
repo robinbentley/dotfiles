@@ -1,5 +1,6 @@
 # general
 alias ll='ls -laFh'
+
 # show permissions as numeric values
 alias lln='ls -lFh | awk "{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/) *2^(8-i));if(k)printf(\"%0o \",k);print}"'
 alias tree='tree -LC 2'
@@ -15,8 +16,9 @@ alias goroot='cd $GOPATH/src/github.com/robinbentley'
 # network
 alias ping='ping -c 5'
 
-# remove any un-needed deps from brew
-alias brewnuke="brew cleanup -s"
+# homebrew
+alias brewclean="brew cleanup -s"
+alias brewdump="brew bundle dump --force --file=~/dotfiles/packages/Brewfile"
 
 # git aliases
 alias gs="git status"
